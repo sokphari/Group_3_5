@@ -1,0 +1,33 @@
+.container {
+  width: 100%;
+  border-radius: 50px;
+  
+}
+.info{
+  /* background-color: aqua; */
+}
+.icon {
+  background-color: aliceblue;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 100%;
+  margin-right: 15px;
+  color: orangered;
+}
+p{
+  font-size: 16px;
+}
+
+
+/* form  */
+.form {
+  width: 95%;
+  height: 90%;
+  background-color: rgb(255, 255, 255);
+  border-radius: 20px;
+  
+}

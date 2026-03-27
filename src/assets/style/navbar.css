@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/* Navbar  */
+.navbar {
+  z-index: 1000;
+  width: 100%;
+  height: 80px;
+  position: sticky;
+  top: 0;
+  background-color: #2e7d32;
+  border-bottom: 2px solid #fb8a004e;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  & img {
+    width: 50px;
+  }
+}
+/* icon  */
+i {
+  font-size: 20px;
+  margin-top: 2px;
+  color: black;
+}

@@ -1,0 +1,993 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <!-- link bootstrap  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+    crossorigin="anonymous"></script>
+  <!-- link cdn  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+  <link rel="stylesheet" href="../Css/navbar.css">
+  <link rel="stylesheet" href="../Css/menu.css">
+  <link rel="stylesheet" href="../Css/Search.css">
+  <link rel="stylesheet" href="../Css/banner.css">
+  <link rel="stylesheet" href="../Css/card.css">
+  <link rel="stylesheet" href="../Css/Circle Feature.css">
+  <link rel="stylesheet" href="../Css/owner.css">
+  <link rel="stylesheet" href="../Css/form.css">
+  <link rel="stylesheet" href="../Css/footer.css">
+
+</head>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Cookie&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Pacifico&family=Playwrite+IN+Guides&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Shadows+Into+Light&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif
+  }
+</style>
+
+<body>
+
+  <!-- Navbar  -->
+  <nav class="navbar bg-white border-bottom py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="../Image/Logo.png" alt="Logo" style="height: 40px;" class="me-2">
+        <h2 class="m-0 fw-bold">THE <span style="color: orangered;">PET</span></h2>
+      </a>
+
+      <div class="icon d-flex gap-4">
+        <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+        <a href="../"><i class="fa-regular fa-user"></i></a>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Button  -->
+  <div class="container mt-4">
+    <div class="d-flex flex-wrap justify-content-center gap-2 gap-md-3">
+      <a href="#" class="btn_menu btn px-4 py-2">All Products</a>
+      <a href="#Pet Food" class="btn_menu btn px-4 py-2">Pet Food</a>
+      <a href="#Toys" class="btn_menu btn px-4 py-2">Toys</a>
+      <a href="#Beds & Housing" class="btn_menu btn px-4 py-2">Beds & Housing</a>
+      <a href="#Grooming" class="btn_menu btn px-4 py-2">Grooming</a>
+      <a href="#Accessories" class="btn_menu btn px-4 py-2">Accessories</a>
+    </div>
+  </div>
+
+  <!-- Search -->
+  <div class="container">
+    <div class="search-container">
+      <form class="d-flex" role="search">
+        <i class="fa-solid fa-magnifying-glass"></i>
+        <input class="form-control search-input" type="search" placeholder="Search for your pet ..."
+          aria-label="Search" />
+      </form>
+    </div>
+  </div>
+
+  <!-- Banner  -->
+  <div class="container">
+    <section class="hero-section d-flex align-items-center justify-content-center text-center">
+      <div class="overlay"></div>
+      <div class="container hero-content">
+        <h1 class="display-1 fw-bold text-white mb-4">Welcome to THE PET</h1>
+        <p class="lead text-white mx-auto" style="max-width: 700px;">
+          Here's everything you need to know about pets and domesticated animals.
+          Learn about your pets' behavior and unique traits.
+        </p>
+
+
+      </div>
+    </section>
+  </div>
+
+  <!-- Circle Feature Highlights Section -->
+  <section class="circle-feature-section">
+    <div class="container">
+      <div class="row g-4 justify-content-center">
+        <div class="col-6 col-md-3">
+          <div class="circle-container">
+            <div class="circle-img-wrapper">
+              <img style="border: 5px solid rgb(255, 255, 255);"
+                src="https://images.unsplash.com/photo-1516734212186-a967f81ad0d7?auto=format&fit=crop&q=80&w=300"
+                alt="Grooming">
+            </div>
+            <h6 class="circle-title" style="color: orangered;">Grooming</h6>
+            <p class="small text-muted">Stay Fresh</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="circle-container">
+            <div class="circle-img-wrapper">
+              <img style="border: 5px solid rgb(255, 255, 255);"
+                src="https://www.adamspetcare.com/-/media/Project/OneWeb/Adams/Images/Photos/Blog/teaching-dog-basic-training.jpg"
+                alt="Training">
+            </div>
+            <h6 class="circle-title" style="color: orangered;">Training</h6>
+            <p class="small text-muted">Learn More</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="circle-container">
+            <div class="circle-img-wrapper">
+              <img style="border: 5px solid rgb(255, 255, 255);"
+                src="https://images.unsplash.com/photo-1534361960057-19889db9621e?auto=format&fit=crop&q=80&w=300"
+                alt="Care">
+            </div>
+            <h6 class="circle-title" style="color: orangered;">Expert Care</h6>
+            <p class="small text-muted">Healthy Pets</p>
+          </div>
+        </div>
+        <div class="col-6 col-md-3">
+          <div class="circle-container">
+            <div class="circle-img-wrapper">
+              <img style="border: 5px solid rgb(255, 255, 255);"
+                src="https://images.unsplash.com/photo-1583337130417-3346a1be7dee?auto=format&fit=crop&q=80&w=300"
+                alt="Accessories">
+            </div>
+            <h6 class="circle-title" style="color: orangered;">New Gear</h6>
+            <p class="small text-muted">Latest Trends</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div class="container-fluid">
+    <div class="container mb-4">
+      <h3 class="fw-bold" style="text-decoration: underline;color: orangered; font-size: 30px;">Shope by Category</h3>
+    </div>
+  </div>
+
+  <!-- Card1 Food-->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-end mb-1 ">
+      <div class="mt-1">
+        <p style="font-size: 20px;" class="text-muted" id="Pet Food">Pet Food</p>
+      </div>
+      <a href="#" class="btn btn-link text-dark fw-bold text-decoration-none d-none d-md-block">View All <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+
+    <div class="cardss mb-2 ">
+      <div class="row g-3">
+        <!-- Pet Food -->
+        <div class="col-md-6  col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container text-center p-3 " style="width: 100%; height: 40%;">
+              <img src="../Image/dogfood.png" class="img-fluid" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body " style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Dog food</h5>
+                <span class="price">$29.99</span>
+              </div>
+              <p class="text-muted small">Needs high protein (meat) Helps build strong muscles, Keeps bones and teeth
+                healthy</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Toys -->
+        <div class="col-md-6  col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container " style="width: 100%; height: 40%;">
+              <img src="../Image/catfood.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Cat food</h5>
+                <span class="price">$89.99</span>
+              </div>
+              <p class="text-muted small">Needs protein and taurine, Supports eyes and heart health, Makes fur soft and
+                shiny</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Beds -->
+        <div class="col-md-6  col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/fishfood.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">fish food</h5>
+                <span class="price">$49.99</span>
+              </div>
+              <p class="text-muted small" style="margin-bottom: 35px;">Needs light, easy-to-digest food, Helps growth
+                and bright colors</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Card2 Toys-->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-end  ">
+      <div class="mt-5">
+        <p style="font-size: 20px;" class="text-muted" id="Toys">Toys</p>
+      </div>
+      <a href="#" class="btn btn-link text-dark fw-bold text-decoration-none d-none d-md-block">View All <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+
+    <div class="cardss mb-2">
+      <div class="row g-3">
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container">
+              <img src="../Image/labubu.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 270px;">
+              <div class="title-row">
+                <h5 class="card-title">Labubu</h5>
+                <span class="price">$999.99</span>
+              </div>
+              <p class="text-muted small">Labubu is a designer toy / art toy character, Created by the artist Kasing
+                Lung</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container">
+              <img src="../Image/kurumi.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 270px;">
+              <div class="title-row">
+                <h5 class="card-title">Korumi</h5>
+                <span class="price">$9.99</span>
+              </div>
+              <p class="text-muted small" style="margin-bottom: 35px;">- Toys for Kids & Adults - Sanrio Fans - Model
+                Figure for Collectors and
+                Display</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128,90)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Beds -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container">
+              <img src="../Image/luffy.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 270px;">
+              <div class="title-row">
+                <h5 class="card-title">Luffy(One piece)</h5>
+                <span class="price">$189.99</span>
+              </div>
+              <p class="text-muted small" style="margin-bottom: 35px;">ANIME HEROES - One Piece - Monkey D. Luffy
+                Renewal Version Action Figure</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128,899)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Card3 Beds & Housing -->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-end mb-1 ">
+      <div class="mt-5">
+        <!-- <h2 class="section-title">Shop by Category</h2> -->
+        <p style="font-size: 20px;" class="text-muted" id="Beds & Housing">Beds & Housing</p>
+      </div>
+      <a href="#" class="btn btn-link text-dark fw-bold text-decoration-none d-none d-md-block">View All <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+
+    <div class="cardss mb-2">
+      <div class="row g-3">
+        <!-- Pet Food -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="..//Image/Garnpet.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title"> Garnpet</h5>
+                <span class="price">$59.99</span>
+              </div>
+              <p class="text-muted small">Cat Bed for Indoor Cats Cube House, Covered Cat Cave Beds & Furniture with
+                Scratch Pad and Hideaway Tent</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/Pelemee.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Pelemee</h5>
+                <span class="price">$49.99</span>
+              </div>
+              <p class="text-muted small">Indoor Dog House, Night-Luminous Star Dog Tent with Frame, Washable Dog Cave
+                Bed, Suitable for ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/Hoopttay.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Hoopttay</h5>
+                <span class="price">$19.99</span>
+              </div>
+              <p class="text-muted small">Medium Winter Warm Bird House and Bird Bed for Cage with Soft Plush Hanging
+                Hammock & ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Card4 Grooming -->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-end ">
+      <div class="mt-5">
+        <!-- <h2 class="section-title">Shop by Category</h2> -->
+        <p style="font-size: 20px;" class="text-muted" id="Grooming">Grooming</p>
+      </div>
+      <a href="#" class="btn btn-link text-dark fw-bold text-decoration-none d-none d-md-block">View All <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+
+    <div class="cardss mb-2">
+      <div class="row g-3">
+        <!-- Pet Food -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="..//Image/Aumuca.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title"> Aumuca</h5>
+                <span class="price">$29.99</span>
+              </div>
+              <p class="text-muted small">Aumuca Skin Friendly Self-Cleaning Slicker Brush for Dogs & Cats, Gentle Pet
+                Grooming Tool for ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/AIRROBO.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">AIRROBO</h5>
+                <span class="price">$69.99</span>
+              </div>
+              <p class="text-muted small">AIRROBO Dog Grooming Vacuum Kit,12000Pa Strong Pet Vacuum for
+                Shedding, ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/Pet Grooming Gloves.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Pet Grooming Gloves</h5>
+                <span class="price">$29.99</span>
+              </div>
+              <p class="text-muted small">Pet Grooming Gloves - Gentle Dog Bathing Shampoo ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Card5 Accessories -->
+  <section class="container py-4">
+    <div class="d-flex justify-content-between align-items-end mb-1 ">
+      <div>
+        <!-- <h2 class="section-title">Shop by Category</h2> -->
+        <p style="font-size: 20px;" class="text-muted" id="Accessories">Accessories</p>
+      </div>
+      <a href="#" class="btn btn-link text-dark fw-bold text-decoration-none d-none d-md-block">View All <i
+          class="bi bi-arrow-right"></i></a>
+    </div>
+
+    <div class="cardss mb-2">
+      <div class="row g-3">
+        <!-- Pet Food -->
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="..//Image/YJGF.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">YJGF</h5>
+                <span class="price">$39.99</span>
+              </div>
+              <p class="text-muted small">YJGF Back Seat Extender,Dog Seat Cover for Back Seat,Hard Bottom Car Seat
+                Cover for Dogs ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/Large Dogs; Pets.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Large Dogs; Pets</h5>
+                <span class="price">$29.99</span>
+              </div>
+              <p class="text-muted small">Elevated Dog Bowls for Large Dogs 5 Adjustable Heights 7.5"-15.4", 2 X-Large
+                10” Stainless Steel Bowls ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-6 col-lg-6 col-xl-4">
+          <div class="card category-card" style="width: 100%; height: 450px;">
+            <div class="card-img-container" style="width: 100%; height: 40%;">
+              <img src="../Image/Multiple Pets.png" alt="Pet Food"
+                style="max-height: 200px; object-fit: contain; margin-top: 5px;">
+            </div>
+            <div class="card-body" style="width: 100%; height: 200px;">
+              <div class="title-row">
+                <h5 class="card-title">Multiple Pets</h5>
+                <span class="price">$19.99</span>
+              </div>
+              <p class="text-muted small">Automatic Cat Feeder Wet Food for 5 Meals, Semiconductor Cooling &
+                𝐏𝐫𝐞-𝐇𝐞𝐚𝐭𝐢𝐧𝐠 Pet Food ...</p>
+              <!-- <a href="#" class="see-more-link">Explore Collection <i class="bi bi-chevron-right"></i></a> -->
+              <div class="rating">
+                <span class="stars"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i
+                    class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                <span class="count">(128)</span>
+              </div>
+
+              <div class="card-footer card-group bg-white ">
+                <div class="action-icons">
+                  <button class="icon-btn text-white fs-5">👁</button>
+                  <button class="icon-btn text-white fs-5">⇄</button>
+                </div>
+                <button class="add-to-cart d-flex" style="width: 140px;height: 40px;"><i style="color: aliceblue;"
+                    class="fa-solid fa-cart-arrow-down"></i>
+                  <p style="font-size: 11px; margin-top: 4px; margin-left: 1px;">Add to
+                    Cart</p>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Owner  -->
+  <div class="container-fluid mt-5">
+    <div class="container bg-light pt-0 rounded-5 ">
+      <div class="container row p-5 gap-4 align-middle d-flex justify-content-center">
+        <div class=" col-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center ">
+          <h2 class="fw-bold " style="font-size: 50px;text-align: center;">Meet the <span style="color: orangered;">
+              Owners</span></h2>
+        </div>
+        <div class=" col-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center text-body-secondary">
+          <p style="font-size: 16px;text-align: center;"> The passionate team behind THE PETS</p>
+        </div>
+        <div class="flip-card col-12 col-md-5 col-lg-4 col-xl-3 d-flex justify-content-center ">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="img">
+
+                <img class="rounded-circle"
+                  src="https://i.pinimg.com/736x/0f/68/94/0f6894e539589a50809e45833c8bb6c4.jpg" alt="Product"
+                  style="width:100%; border-radius: 10px; object-fit: cover;border: 2px solid white;">
+              </div>
+              <h3 class="mt-3 fw-bold">Yom Somnang</h3>
+              <p style="color: rgb(255, 255, 255);">Co-Founder & Pet Nutritionist</p>
+            </div>
+
+            <div class="flip-card-back">
+              <p>"Hi! I'm Yom Somnang. I co-founded THE PETS because I believe every pet deserves a healthy plate. Let’s
+                find the perfect diet for your best friend together!"</p>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="flip-card col-12 col-md-5 col-lg-4 col-xl-3 d-flex justify-content-center ">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <div class="img mt-3 ">
+
+                <img class="rounded-circle"
+                  src="https://i.pinimg.com/736x/0f/68/94/0f6894e539589a50809e45833c8bb6c4.jpg" alt="Product"
+                  style="width:100%; border-radius: 10px; object-fit: cover; border: 2px solid white;">
+              </div>
+              <h3 class="mt-3 fw-bold">Chhut Dalin</h3>
+              <p style="color: rgb(255, 255, 255);" class="p-2">Co-Founder & Head of Care</p>
+            </div>
+
+            <div class="flip-card-back">
+              <p>"Overseeing our community and ensuring every pet parent receives the support they deserve. Dedicated to
+                excellence in customer care."</p>
+            </div>
+          </div>
+        </div>
+
+
+
+      </div>
+    </div>
+  </div>
+  
+  <!-- Customer Review  -->
+  <div class="container">
+    
+    <div class="container py-5 mt-5">
+    <h2 class="fw-bold mb-4">Customer Review</h2>
+    
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="review-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img style="width: 50px; height: 50px; object-fit: cover;" src="https://i.pinimg.com/736x/43/fc/c9/43fcc93af83c1df6eb3c5108453846f4.jpg" class="rounded-circle me-3" alt="User">
+                    <h5 class="mb-0 fw-bold">Maya & Luna</h5>
+                </div>
+                <span class="badge bg-success mb-2">COMFORT</span>
+                <p class="text-muted">The memory foam bed is a lifesaver. Luna finally sleeps through the night!</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="review-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img style="width: 50px; height: 50px; object-fit: cover;" src="https://i.pinimg.com/736x/ec/b6/1f/ecb61f22d6572abe356e2568c67f4631.jpg" class="rounded-circle me-3" alt="User">
+                    <h5 class="mb-0 fw-bold">James P.</h5>
+                </div>
+                <span class="badge bg-danger mb-2">SAFETY</span>
+                <p class="text-muted">The reflective harness is incredibly sturdy. I feel much safer during our late-night walks.</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="review-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img style="width: 50px; height: 50px; object-fit: cover;" src="https://i.pinimg.com/1200x/5e/59/2c/5e592c498cf2daa6ddf69930c652b833.jpg" class="rounded-circle me-3" alt="User">
+                    <h5 class="mb-0 fw-bold">Sarah L.</h5>
+                </div>
+                <span class="badge bg-primary mb-2" style="background-color: #6f42c1 !important;">AESTHETICS</span>
+                <p class="text-muted">Obsessed with the minimalist ceramic bowls. They look like art in my kitchen!</p>
+            </div>
+        </div>
+
+        <div class="col-md-6">
+            <div class="review-card p-4">
+                <div class="d-flex align-items-center mb-3">
+                    <img style="width: 50px; height: 50px; object-fit: cover;" src="https://i.pinimg.com/736x/ef/c9/1e/efc91ed4b0c3d0c7f432c717b755a650.jpg" class="rounded-circle me-3" alt="User">
+                    <h5 class="mb-0 fw-bold">The Miller Family</h5>
+                </div>
+                <span class="badge bg-info text-white mb-2">DURABILITY</span>
+                <p class="text-muted">Finally, toys that our Golden Retriever can't destroy in five minutes. High quality!</p>
+            </div>
+        </div>
+    </div>
+</div>
+  </div>
+
+  <!-- Get in touch  -->
+  <div class="container-fluid mt-5">
+    <div class="container bg-light pt-4 rounded-5 shadow-sm">
+      <div class="row p-lg-5 p-3">
+        <div class="info col-12 col-md-6 pt-4 pb-5">
+          <h3 style="font-size: 39px;" class="fw-bold mb-4">
+            Get in Touch <br><span style="color: orangered;">with Us.</span>
+          </h3>
+          <p class="mb-4 text-muted">
+            Our pet experts are here to help you choose the best for your companion. We respond within 24 hours.
+          </p>
+
+          <div class="d-flex align-items-center mb-3">
+            <div class="icon me-3 text-primary fs-4"><i class="fa-regular fa-envelope"></i></div>
+            <div class="lh-sm">
+              <h6 class="fw-bold mb-0">Email Us</h6>
+              <p class="mb-0 text-muted">support@thepets.com</p>
+            </div>
+          </div>
+
+          <div class="d-flex align-items-center">
+            <div class="icon me-3 text-primary fs-4"><i class="fa-solid fa-phone"></i></div>
+            <div class="lh-sm">
+              <h6 class="fw-bold mb-0">Call Us</h6>
+              <p class="mb-0 text-muted">+855 78 415 142</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-12 col-md-6">
+          <div class="card border-0 shadow-sm p-4 rounded-4">
+            <form class="row g-3">
+              <div class="col-md-6">
+                <label class="form-label small fw-bold">First Name</label>
+                <input type="text" class="form-control bg-light border-0" placeholder="First Name">
+              </div>
+              <div class="col-md-6">
+                <label class="form-label small fw-bold">Last Name</label>
+                <input type="text" class="form-control bg-light border-0" placeholder="Last Name">
+              </div>
+              <div class="col-12">
+                <label class="form-label small fw-bold">Email Address</label>
+                <input type="email" class="form-control bg-light border-0" placeholder="name@example.com">
+              </div>
+              <div class="col-12">
+                <label class="form-label small fw-bold">Message</label>
+                <textarea class="form-control bg-light border-0" rows="4"
+                  placeholder="How can we help you and your pet?"></textarea>
+              </div>
+              <div class="col-12 d-grid mt-4 d-flex align-middle justify-content-center">
+                <button style="background-color: orangered; border: none; width: 200px;"
+                  class="btn btn-primary py-2 fw-bold" type="button">
+                  SEND MESSAGE
+                </button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="container-fluid bg-dark pt-2 text-light mt-5">
+    <div class="container ">
+      <div class=" row">
+        <div class="block1 col-12 col-md-6 col-lg-3 col-xl-3">
+          <h5 class="fw-bold mt-4">EXPLORE OUR GEAR</h5>
+          <p>Collar & Leashes</p>
+          <p>Beds & Blankets</p>
+          <p>Toys</p>
+          <p>Seasonal</p>
+        </div>
+        <div class="block2 col-12 col-md-6 col-lg-3 col-xl-3">
+          <h5 class="fw-bold mt-4">CLIENT SUPPORT</h5>
+          <p>Track Order</p>
+          <p>Shipping</p>
+          <p>Returns</p>
+          <p>FAQ</p>
+        </div>
+        <div class="block3 col-12 col-md-6 col-lg-3 col-xl-3">
+          <h5 class="fw-bold mt-4">OUR STORY</h5>
+          <p>About Pawsitive</p>
+          <p>Sustainability</p>
+          <p>Careers</p>
+        </div>
+        <div class="block4 col-12 col-md-6 col-lg-3 col-xl-3 pb-4">
+          <h5 class="fw-bold mt-4">JOIN THE PACK</h5>
+          <p>Subscibe to our newsletter for 10%off your order!</p>
+          <div class="button ">
+            <input style="font-size: 12px;" type="email" placeholder="Email address">
+            <button style="border-radius: 5px;margin-top: 10px; margin-left: 50px;font-size: 12px; height: 20px;"
+              type="submit"><span style="color: white;">Subscribe</span></button>
+          </div>
+        </div>
+        <hr>
+        <div class="block3 col-12 col-md-12 col-lg-12 col-xl-12 d-flex justify-content-center text-white-50">
+          <p>@ 2026 THE PETS Accessories. All rights reserved</p>
+        </div>
+      </div>
+
+
+    </div>
+  </div>
+</body>
+
+</html>

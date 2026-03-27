@@ -1,0 +1,51 @@
+/* Button  */
+.button_Menu {
+  margin-top: 20px;
+
+
+  & .btn_menu {
+    width: 110px;
+    border: 1px solid rgba(0, 0, 0, 0.186);
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-weight: bold;
+  }
+}
+
+.navbar-brand h2 {
+  letter-spacing: -1px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.icon a {
+  color: #333;
+  font-size: 1.2rem;
+  transition: color 0.3s ease;
+}
+
+.icon a:hover {
+  color: orangered;
+}
+
+.btn_menu {
+  border: 1px solid #eee !important;
+  border-radius: 8px !important;
+  font-weight: 500;
+  font-size: 0.95rem;
+  white-space: nowrap;
+  transition: all 0.3s ease;
+  background-color: #fff !important;
+}
+
+.btn_menu:hover {
+  background-color: orangered !important;
+  color: white !important;
+  border-color: orangered !important;
+  box-shadow: 0 4px 12px rgba(255, 69, 0, 0.2);
+  transform: translateY(-2px);
+}
+
+.search-input:focus {
+  box-shadow: 0 0 10px rgba(255, 69, 0, 0.1) !important;
+  border-color: orangered !important;
+}
