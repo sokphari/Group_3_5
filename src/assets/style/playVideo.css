@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css2?family=Battambang:wght@100;300;400;700;900&family=Fasthand&family=Freehand&family=Khmer&family=Koh+Santepheap:wght@100;300;400;700;900&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Battambang", system-ui;
+}
+:root {
+    --bg-body: #ffffff;
+    --bg-card: #f8f9fa;
+    --text-color: #212529;
+}
+
+body.dark-mode {
+    --bg-body: #121212;
+    --bg-card: #1e1e1e;
+    --text-color: #ffffff;
+}
+body{
+     background-color: var(--bg-body);
+    color: var(--text-color);
+    transition: 0.3s;
+     padding-top: 110px;
+}
+.logoForCombodiaEconomy{
+    width: 120px;
+    height: 50px;
+}
+ .btn-login-design{
+        width: auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background-color: blue;
+        border-radius: 5px;
+    }
+    .btn-text{
+        color: white;
+        font-size: 18px;
+    }
+    #btn{
+        font-size: 23px;
+        width: 40px;
+        border-radius: 50%;
+    }
+     /* for all dive */
+     .card {
+    background-color: var(--bg-card) !important; /* ប្រើ !important បើជាន់ជាមួយ Bootstrap */
+    color: var(--text-color);
+}
+    .cardImg{
+        transition: all .2s linear;
+    }
+    .cardImg:hover{
+        transform: scale(1.1);
+    }
+    .cardTitle{
+        font-weight: bold;
+        display: -webkit-box;
+        -webkit-line-clamp: 1;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        line-height: 1.5;
+        font-size: 18px;
+    }
+    .cardDesc{
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+        font-size: 18px;
+    }
+
+    .card {
+        background-color: #f8f9fa;
+        border: none; 
+        transition: 0.3s; 
+        overflow: hidden;
+    }
+
+    .btnText{
+        font-size: 16px;
+    }
+    .text-business{
+        font-size: 16px;
+        text-align: justify;
+        text-justify: inter-word;
+        margin-top: 5px;
+    }
+    .footer{
+
+        background-color: #003366;
+    }
+    .footer-title{
+        font-size: 25px;
+    }
+    .fs-footer{
+        font-size: 18px;
+    }
+    .content{
+        margin-top: 110px;
+    }
+   #title{
+    font-size: 40px;
+    line-height: 1.5;
+   }
+   .textDetail{
+    font-size: 20px;
+    line-height: 1.8 ;
+   }
+ /* for style video play mobile up*/
+    #videoCard{
+        height: 90vh;
+        overflow: auto;
+    }
+    .title{
+        font-size: 18px;
+    }
+    
+   #playVideo{
+    height: 220px;
+   }
+   .hvideo{
+    height: 96px;
+    transition: all .2s ease;
+   }
+   .hvideo:hover{
+    transform: scale(1.05);
+   }
+   .videoText{
+        font-size: 16px;
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        word-break: break-all;
+    }
+  .btn-group-scroll{
+  display: flex;
+  gap: 10px;
+  overflow-x: auto;
+}
+
+.btn-group-scroll::-webkit-scrollbar{
+  display: none;
+}
+.btn{
+ background-color: rgb(122, 122, 122);
+ border-radius: 30px;
+ color: white;
+ font-size: 14px;
+ white-space: nowrap;
+}
+/* for style video play Ipad Mini up*/
+@media (min-width: 760px) {
+ 
+    #videoCard{
+        height: 90vh;
+        overflow: auto;
+    }
+     .title{
+        font-size: 24px;
+    }
+    
+    .videoText{
+        font-size: 18px;
+    }
+   #playVideo{
+    height: 400px;
+   }
+   .hvideo{
+    height: 155px;
+    transition: all .2s ease;
+   }
+   .hvideo:hover{
+    transform: scale(1.05);
+   }
+   .span{
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    padding: 5px 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+    margin-bottom: 5px;
+   }
+
+}
+/* for style video play computer 14 inch up*/
+@media (min-width: 1024px) {
+    .logoForCombodiaEconomy{
+    width: 130px;
+    height: 60px;
+}
+    .nav-item-design {
+        width: auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        border-radius: 30px;
+        margin-right: 10px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        transition: all .2s linear;
+    }
+    .nav-item-design:hover{
+        transform: scale(1.05);
+    }
+    .nav-link-design {
+        font-size: 18px ;
+        transition: all .2s linear;
+    }
+    .nav-link-design:hover{
+        text-decoration: underline rgb(102, 102, 102);
+    }
+    .icon{
+        font-size: 18px;
+    }
+    .nav-link-design1{
+        font-size: 14px;
+    }
+    .btn-login-design{
+        width: auto;
+        height: 40px;
+        display: flex;
+        align-items: center;
+        background-color: blue;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+        border-radius: 30px;
+    }
+    .btn-text{
+        color: white;
+        font-size: 18px;
+    }
+    /* for style video play*/
+    #videoDetail{
+    margin-bottom: 20px;
+}
+    #videoCard{
+        height: 90vh;
+        overflow: auto;
+    }
+    .videoText{
+        font-size: 14 px;
+    }
+   #playVideo{
+    height: 300px;
+   }
+   .hvideo{
+    height: 85px;
+    transition: all .2s ease;
+   }
+   .hvideo:hover{
+    transform: scale(1.05);
+   }
+   .span{
+    font-size: 20px;
+    font-weight: bold;
+    width: auto;
+    padding: 5px 10px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 20px;
+   }
+
+}
+/* for style video play computer 16 inch up*/
+@media (min-width: 1210px) {
+    #videoDetail{
+    margin-bottom: 20px;
+}
+#videoCard{
+    height: 90vh;
+    overflow: auto;
+}
+.videoText{
+    font-size: 16px;
+}
+   #playVideo{
+    height: 400px;
+   }
+   .hvideo{
+    height: 95px;
+   }
+}
+/* for style video play size xxl  up*/
+@media (min-width: 1400px) {
+    #videoDetail{
+    margin-bottom: 20px;
+}
+#videoCard{
+    height: 90vh;
+    overflow: auto;
+}
+.videoText{
+    font-size: 18px;
+}
+   #playVideo{
+    height: 500px;
+   }
+   .hvideo{
+    height: 105px;
+   }
+}

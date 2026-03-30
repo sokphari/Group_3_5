@@ -1,0 +1,412 @@
+[
+ 
+  {
+    "id": 1,
+    "cardTitle": "ព័ត៌មានថ្មីទី១",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី១",
+    "img": "https://picsum.photos/seed/1/400/250",
+    "category": "LatestNews",
+    "btnText": "#news1"
+  },
+  {
+    "id": 2,
+    "cardTitle": "ព័ត៌មានថ្មីទី២",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី២",
+    "img": "https://picsum.photos/seed/2/400/250",
+    "category": "LatestNews",
+    "btnText": "#news2"
+  },
+  {
+    "id": 3,
+    "cardTitle": "ព័ត៌មានថ្មីទី៣",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៣",
+    "img": "https://picsum.photos/seed/3/400/250",
+    "category": "LatestNews",
+    "btnText": "#news3"
+  },
+  {
+    "id": 4,
+    "cardTitle": "ព័ត៌មានថ្មីទី៤",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៤",
+    "img": "https://picsum.photos/seed/4/400/250",
+    "category": "LatestNews",
+    "btnText": "#news4"
+  },
+  {
+    "id": 5,
+    "cardTitle": "ព័ត៌មានថ្មីទី៥",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៥",
+    "img": "https://picsum.photos/seed/5/400/250",
+    "category": "LatestNews",
+    "btnText": "#news5"
+  },
+  {
+    "id": 6,
+    "cardTitle": "ព័ត៌មានថ្មីទី៦",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៦",
+    "img": "https://picsum.photos/seed/6/400/250",
+    "category": "LatestNews",
+    "btnText": "#news6"
+  },
+  {
+    "id": 7,
+    "cardTitle": "ព័ត៌មានថ្មីទី៧",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៧",
+    "img": "https://picsum.photos/seed/7/400/250",
+    "category": "LatestNews",
+    "btnText": "#news7"
+  },
+  {
+    "id": 8,
+    "cardTitle": "ព័ត៌មានថ្មីទី៨",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៨",
+    "img": "https://picsum.photos/seed/8/400/250",
+    "category": "LatestNews",
+    "btnText": "#news8"
+  },
+  {
+    "id": 9,
+    "cardTitle": "ព័ត៌មានថ្មីទី៩",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី៩",
+    "img": "https://picsum.photos/seed/9/400/250",
+    "category": "LatestNews",
+    "btnText": "#news9"
+  },
+  {
+    "id": 10,
+    "cardTitle": "ព័ត៌មានថ្មីទី១០",
+    "cardDesc": "ពិពណ៌នាព័ត៌មានថ្មីទី១០",
+    "img": "https://picsum.photos/seed/10/400/250",
+    "category": "LatestNews",
+    "btnText": "#news10"
+  },
+
+
+  {
+    "id": 11,
+    "cardTitle": "Business Tip 1",
+    "cardDesc": "Description business tip 1",
+    "img": "https://picsum.photos/seed/11/400/250",
+    "category": "Business",
+    "btnText": "#biz1"
+  },
+  {
+    "id": 12,
+    "cardTitle": "Business Tip 2",
+    "cardDesc": "Description business tip 2",
+    "img": "https://picsum.photos/seed/12/400/250",
+    "category": "Business",
+    "btnText": "#biz2"
+  },
+  {
+    "id": 13,
+    "cardTitle": "Business Tip 3",
+    "cardDesc": "Description business tip 3",
+    "img": "https://picsum.photos/seed/13/400/250",
+    "category": "Business",
+    "btnText": "#biz3"
+  },
+  {
+    "id": 14,
+    "cardTitle": "Business Tip 4",
+    "cardDesc": "Description business tip 4",
+    "img": "https://picsum.photos/seed/14/400/250",
+    "category": "Business",
+    "btnText": "#biz4"
+  },
+  {
+    "id": 15,
+    "cardTitle": "Business Tip 5",
+    "cardDesc": "Description business tip 5",
+    "img": "https://picsum.photos/seed/15/400/250",
+    "category": "Business",
+    "btnText": "#biz5"
+  },
+  {
+    "id": 16,
+    "cardTitle": "Business Tip 6",
+    "cardDesc": "Description business tip 6",
+    "img": "https://picsum.photos/seed/16/400/250",
+    "category": "Business",
+    "btnText": "#biz6"
+  },
+  {
+    "id": 17,
+    "cardTitle": "Business Tip 7",
+    "cardDesc": "Description business tip 7",
+    "img": "https://picsum.photos/seed/17/400/250",
+    "category": "Business",
+    "btnText": "#biz7"
+  },
+  {
+    "id": 18,
+    "cardTitle": "Business Tip 8",
+    "cardDesc": "Description business tip 8",
+    "img": "https://picsum.photos/seed/18/400/250",
+    "category": "Business",
+    "btnText": "#biz8"
+  },
+  {
+    "id": 19,
+    "cardTitle": "Business Tip 9",
+    "cardDesc": "Description business tip 9",
+    "img": "https://picsum.photos/seed/19/400/250",
+    "category": "Business",
+    "btnText": "#biz9"
+  },
+  {
+    "id": 20,
+    "cardTitle": "Business Tip 10",
+    "cardDesc": "Description business tip 10",
+    "img": "https://picsum.photos/seed/20/400/250",
+    "category": "Business",
+    "btnText": "#biz10"
+  },
+
+ 
+  {
+    "id": 21,
+    "cardTitle": "IT Guide 1",
+    "cardDesc": "Description IT guide 1",
+    "img": "https://picsum.photos/seed/21/400/250",
+    "category": "IT",
+    "btnText": "#it1"
+  },
+  {
+    "id": 22,
+    "cardTitle": "IT Guide 2",
+    "cardDesc": "Description IT guide 2",
+    "img": "https://picsum.photos/seed/22/400/250",
+    "category": "IT",
+    "btnText": "#it2"
+  },
+  {
+    "id": 23,
+    "cardTitle": "IT Guide 3",
+    "cardDesc": "Description IT guide 3",
+    "img": "https://picsum.photos/seed/23/400/250",
+    "category": "IT",
+    "btnText": "#it3"
+  },
+  {
+    "id": 24,
+    "cardTitle": "IT Guide 4",
+    "cardDesc": "Description IT guide 4",
+    "img": "https://picsum.photos/seed/24/400/250",
+    "category": "IT",
+    "btnText": "#it4"
+  },
+  {
+    "id": 25,
+    "cardTitle": "IT Guide 5",
+    "cardDesc": "Description IT guide 5",
+    "img": "https://picsum.photos/seed/25/400/250",
+    "category": "IT",
+    "btnText": "#it5"
+  },
+  {
+    "id": 26,
+    "cardTitle": "IT Guide 6",
+    "cardDesc": "Description IT guide 6",
+    "img": "https://picsum.photos/seed/26/400/250",
+    "category": "IT",
+    "btnText": "#it6"
+  },
+  {
+    "id": 27,
+    "cardTitle": "IT Guide 7",
+    "cardDesc": "Description IT guide 7",
+    "img": "https://picsum.photos/seed/27/400/250",
+    "category": "IT",
+    "btnText": "#it7"
+  },
+  {
+    "id": 28,
+    "cardTitle": "IT Guide 8",
+    "cardDesc": "Description IT guide 8",
+    "img": "https://picsum.photos/seed/28/400/250",
+    "category": "IT",
+    "btnText": "#it8"
+  },
+  {
+    "id": 29,
+    "cardTitle": "IT Guide 9",
+    "cardDesc": "Description IT guide 9",
+    "img": "https://picsum.photos/seed/29/400/250",
+    "category": "IT",
+    "btnText": "#it9"
+  },
+  {
+    "id": 30,
+    "cardTitle": "IT Guide 10",
+    "cardDesc": "Description IT guide 10",
+    "img": "https://picsum.photos/seed/30/400/250",
+    "category": "IT",
+    "btnText": "#it10"
+  },
+  
+  
+  {
+    "id": 31,
+    "cardTitle": "Art Idea 1",
+    "cardDesc": "Description art idea 1",
+    "img": "https://picsum.photos/seed/31/400/250",
+    "category": "Art",
+    "btnText": "#art1"
+  },
+  {
+    "id": 32,
+    "cardTitle": "Art Idea 2",
+    "cardDesc": "Description art idea 2",
+    "img": "https://picsum.photos/seed/32/400/250",
+    "category": "Art",
+    "btnText": "#art2"
+  },
+  {
+    "id": 33,
+    "cardTitle": "Art Idea 3",
+    "cardDesc": "Description art idea 3",
+    "img": "https://picsum.photos/seed/33/400/250",
+    "category": "Art",
+    "btnText": "#art3"
+  },
+  {
+    "id": 34,
+    "cardTitle": "Art Idea 4",
+    "cardDesc": "Description art idea 4",
+    "img": "https://picsum.photos/seed/34/400/250",
+    "category": "Art",
+    "btnText": "#art4"
+  },
+  {
+    "id": 35,
+    "cardTitle": "Art Idea 5",
+    "cardDesc": "Description art idea 5",
+    "img": "https://picsum.photos/seed/35/400/250",
+    "category": "Art",
+    "btnText": "#art5"
+  },
+  {
+    "id": 36,
+    "cardTitle": "Art Idea 6",
+    "cardDesc": "Description art idea 6",
+    "img": "https://picsum.photos/seed/36/400/250",
+    "category": "Art",
+    "btnText": "#art6"
+  },
+  {
+    "id": 37,
+    "cardTitle": "Art Idea 7",
+    "cardDesc": "Description art idea 7",
+    "img": "https://picsum.photos/seed/37/400/250",
+    "category": "Art",
+    "btnText": "#art7"
+  },
+  {
+    "id": 38,
+    "cardTitle": "Art Idea 8",
+    "cardDesc": "Description art idea 8",
+    "img": "https://picsum.photos/seed/38/400/250",
+    "category": "Art",
+    "btnText": "#art8"
+  },
+  {
+    "id": 39,
+    "cardTitle": "Art Idea 9",
+    "cardDesc": "Description art idea 9",
+    "img": "https://picsum.photos/seed/39/400/250",
+    "category": "Art",
+    "btnText": "#art9"
+  },
+  {
+    "id": 40,
+    "cardTitle": "Art Idea 10",
+    "cardDesc": "Description art idea 10",
+    "img": "https://picsum.photos/seed/40/400/250",
+    "category": "Art",
+    "btnText": "#art10"
+  },
+
+ 
+  {
+    "id": 41,
+    "cardTitle": "Sport News 1",
+    "cardDesc": "Description sport news 1",
+    "img": "https://picsum.photos/seed/41/400/250",
+    "category": "Sport",
+    "btnText": "#sport1"
+  },
+  {
+    "id": 42,
+    "cardTitle": "Sport News 2",
+    "cardDesc": "Description sport news 2",
+    "img": "https://picsum.photos/seed/42/400/250",
+    "category": "Sport",
+    "btnText": "#sport2"
+  },
+  {
+    "id": 43,
+    "cardTitle": "Sport News 3",
+    "cardDesc": "Description sport news 3",
+    "img": "https://picsum.photos/seed/43/400/250",
+    "category": "Sport",
+    "btnText": "#sport3"
+  },
+  {
+    "id": 44,
+    "cardTitle": "Sport News 4",
+    "cardDesc": "Description sport news 4",
+    "img": "https://picsum.photos/seed/44/400/250",
+    "category": "Sport",
+    "btnText": "#sport4"
+  },
+  {
+    "id": 45,
+    "cardTitle": "Sport News 5",
+    "cardDesc": "Description sport news 5",
+    "img": "https://picsum.photos/seed/45/400/250",
+    "category": "Sport",
+    "btnText": "#sport5"
+  },
+  {
+    "id": 46,
+    "cardTitle": "Sport News 6",
+    "cardDesc": "Description sport news 6",
+    "img": "https://picsum.photos/seed/46/400/250",
+    "category": "Sport",
+    "btnText": "#sport6"
+  },
+  {
+    "id": 47,
+    "cardTitle": "Sport News 7",
+    "cardDesc": "Description sport news 7",
+    "img": "https://picsum.photos/seed/47/400/250",
+    "category": "Sport",
+    "btnText": "#sport7"
+  },
+  {
+    "id": 48,
+    "cardTitle": "Sport News 8",
+    "cardDesc": "Description sport news 8",
+    "img": "https://picsum.photos/seed/48/400/250",
+    "category": "Sport",
+    "btnText": "#sport8"
+  },
+  {
+    "id": 49,
+    "cardTitle": "Sport News 9",
+    "cardDesc": "Description sport news 9",
+    "img": "https://picsum.photos/seed/49/400/250",
+    "category": "Sport",
+    "btnText": "#sport9"
+  },
+  {
+    "id": 50,
+    "cardTitle": "Sport News 10",
+    "cardDesc": "Description sport news 10",
+    "img": "https://picsum.photos/seed/50/400/250",
+    "category": "Sport",
+    "btnText": "#sport10"
+  }
+]
+
