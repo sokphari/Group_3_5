@@ -905,6 +905,166 @@
         .modal-form button:hover {
             background-color: var(--primary-dark);
         }
+
+        /* Owners Section */
+        .owners {
+            background: linear-gradient(135deg, rgba(255, 107, 53, 0.05) 0%, rgba(26, 58, 82, 0.05) 100%);
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .owners-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 2rem;
+        }
+
+        .owner-card {
+            background-color: var(--card-bg);
+            border-radius: 0.75rem;
+            overflow: hidden;
+            box-shadow: var(--shadow);
+            transition: all 0.3s;
+        }
+
+        .owner-card:hover {
+            transform: translateY(-8px);
+            box-shadow: var(--shadow-lg);
+        }
+
+        .owner-avatar {
+            width: 100%;
+            height: 12rem;
+            background: linear-gradient(135deg, var(--primary) 0%, rgba(255, 107, 53, 0.6) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 4rem;
+            color: white;
+        }
+
+        .owner-info {
+            padding: 1.5rem;
+        }
+
+        .owner-name {
+            font-size: 1.25rem;
+            font-weight: bold;
+            color: var(--foreground);
+            margin-bottom: 0.5rem;
+        }
+
+        .owner-title {
+            font-size: 0.875rem;
+            color: var(--primary);
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .owner-description {
+            font-size: 0.95rem;
+            color: var(--muted);
+            line-height: 1.6;
+        }
+
+        /* Customer Reviews Section */
+        .reviews {
+            background-color: white;
+            padding: 3rem 0;
+            border-bottom: 1px solid var(--border);
+        }
+
+        .reviews-container {
+            position: relative;
+        }
+
+        .reviews-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .review-card {
+            background-color: #f9f9f9;
+            border-radius: 0.75rem;
+            padding: 1.5rem;
+            border-left: 4px solid var(--primary);
+            transition: all 0.3s;
+        }
+
+        .review-card:hover {
+            box-shadow: var(--shadow-lg);
+            transform: translateY(-4px);
+        }
+
+        .review-header {
+            display: flex;
+            align-items: center;
+            gap: 1rem;
+            margin-bottom: 1rem;
+        }
+
+        .review-avatar {
+            width: 3rem;
+            height: 3rem;
+            border-radius: 50%;
+            background: linear-gradient(135deg, var(--primary) 0%, rgba(255, 107, 53, 0.6) 100%);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            flex-shrink: 0;
+        }
+
+        .review-info {
+            flex: 1;
+        }
+
+        .review-name {
+            font-weight: bold;
+            color: var(--foreground);
+            margin-bottom: 0.25rem;
+        }
+
+        .review-rating {
+            color: #fbbf24;
+            font-size: 0.875rem;
+            letter-spacing: 0.1em;
+        }
+
+        .review-text {
+            color: var(--muted);
+            font-size: 0.95rem;
+            line-height: 1.6;
+            font-style: italic;
+        }
+
+        .reviews-nav {
+            display: flex;
+            justify-content: center;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .review-nav-btn {
+            width: 2.5rem;
+            height: 2.5rem;
+            border-radius: 50%;
+            border: 2px solid var(--border);
+            background-color: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.3s;
+            font-size: 1rem;
+        }
+
+        .review-nav-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
     </style>
 </head>
 <body>
@@ -1008,6 +1168,47 @@
             </div>
             <div class="no-products" id="noProducts" style="display: none;">
                 No products found. Try adjusting your search.
+            </div>
+        </div>
+    </div>
+
+    <!-- Meet the Owners Section -->
+    <div class="owners">
+        <div class="container">
+            <h2 class="section-title">Meet the Owners</h2>
+            <div class="owners-grid">
+                <div class="owner-card">
+                    <div class="owner-avatar">👨‍💼</div>
+                    <div class="owner-info">
+                        <h3 class="owner-name">Yom Somnang</h3>
+                        <p class="owner-title">Co-Founder & Nutrition Expert</p>
+                        <p class="owner-description">"Hi! I'm Yom Somnang. I co-founded THE PETS because I believe every pet deserves a healthy plate. Let's find the perfect diet for your best friend together!"</p>
+                    </div>
+                </div>
+                <div class="owner-card">
+                    <div class="owner-avatar">👨‍💼</div>
+                    <div class="owner-info">
+                        <h3 class="owner-name">Chhut Dalin</h3>
+                        <p class="owner-title">Community Manager</p>
+                        <p class="owner-description">"Overseeing our community and ensuring every pet parent receives the support they deserve. Dedicated to excellence in customer care."</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Customer Reviews Section -->
+    <div class="reviews">
+        <div class="container">
+            <h2 class="section-title">Customer Reviews</h2>
+            <div class="reviews-container">
+                <div class="reviews-grid" id="reviewsGrid">
+                    <!-- Reviews will be inserted here by JavaScript -->
+                </div>
+                <div class="reviews-nav">
+                    <button class="review-nav-btn" id="prevReviewBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="review-nav-btn" id="nextReviewBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
             </div>
         </div>
     </div>
@@ -1435,8 +1636,95 @@
             mobileMenu.classList.toggle('active');
         });
 
+        // Customer Reviews Data
+        const REVIEWS = [
+            {
+                id: 1,
+                name: "Sarah Johnson",
+                avatar: "😊",
+                rating: "★★★★★",
+                text: "THE PETS has been a lifesaver for my dog's dietary needs. The quality is exceptional and my pup loves the food!"
+            },
+            {
+                id: 2,
+                name: "Mike Chen",
+                avatar: "😄",
+                rating: "★★★★★",
+                text: "Best pet supplies I've found. Fast shipping and excellent customer service. Highly recommended!"
+            },
+            {
+                id: 3,
+                name: "Emma Davis",
+                avatar: "🥰",
+                rating: "★★★★★",
+                text: "My cat has never been healthier! The grooming products are top-notch and the prices are fair."
+            },
+            {
+                id: 4,
+                name: "James Wilson",
+                avatar: "😍",
+                rating: "★★★★★",
+                text: "Outstanding selection of pet toys and beds. My dogs are having a blast with their new toys!"
+            },
+            {
+                id: 5,
+                name: "Lisa Anderson",
+                avatar: "😊",
+                rating: "★★★★★",
+                text: "Great quality products at reasonable prices. THE PETS truly cares about our furry friends!"
+            },
+            {
+                id: 6,
+                name: "David Martinez",
+                avatar: "🐾",
+                rating: "★★★★★",
+                text: "The customer service team is amazing! They helped me find the perfect food for my picky eater."
+            }
+        ];
+
+        let currentReviewIndex = 0;
+
+        // Render Reviews
+        function renderReviews() {
+            const reviewsPerPage = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+            const visibleReviews = REVIEWS.slice(currentReviewIndex, currentReviewIndex + reviewsPerPage);
+
+            const reviewsGrid = document.getElementById('reviewsGrid');
+            reviewsGrid.innerHTML = visibleReviews.map(review => `
+                <div class="review-card">
+                    <div class="review-header">
+                        <div class="review-avatar">${review.avatar}</div>
+                        <div class="review-info">
+                            <div class="review-name">${review.name}</div>
+                            <div class="review-rating">${review.rating}</div>
+                        </div>
+                    </div>
+                    <p class="review-text">${review.text}</p>
+                </div>
+            `).join('');
+        }
+
+        // Review Navigation
+        const prevReviewBtn = document.getElementById('prevReviewBtn');
+        const nextReviewBtn = document.getElementById('nextReviewBtn');
+
+        prevReviewBtn.addEventListener('click', () => {
+            const reviewsPerPage = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+            currentReviewIndex = Math.max(0, currentReviewIndex - reviewsPerPage);
+            renderReviews();
+        });
+
+        nextReviewBtn.addEventListener('click', () => {
+            const reviewsPerPage = window.innerWidth < 768 ? 1 : window.innerWidth < 1024 ? 2 : 3;
+            if (currentReviewIndex + reviewsPerPage < REVIEWS.length) {
+                currentReviewIndex += reviewsPerPage;
+            }
+            renderReviews();
+        });
+
         // Initialize
         renderProducts();
+        renderReviews();
     </script>
 </body>
 </html>
