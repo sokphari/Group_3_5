@@ -63,84 +63,212 @@
     "category": "LatestNews"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":11,
+    "video": "https://www.youtube.com/embed/EPj5sa2QQRw?si=xo4iT_qAttTjUTUW",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 28 ខែ​ មករា ឆ្នាំ 2026 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":12,
+    "video": "https://www.youtube.com/embed/qYM1y5GTyLM?si=mCkX6KqBqk7mSjQf",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 21 ខែ​ មករា ឆ្នាំ 2026 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":13,
+    "video": "https://www.youtube.com/embed/m8-vHBYqt24?si=P7JHzdFD6vUcW0ku",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 15 ខែ​ មករា ឆ្នាំ 2026 អត្ថាធិប្បាយដោយ លោក កែវ អារុណ ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":14,
+    "video": "https://www.youtube.com/embed/WmMhEXF5VtU?si=6YR8zdhGMezNcEOk",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 13 ខែ​ មករា ឆ្នាំ 2026 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":15,
+    "video": "https://www.youtube.com/embed/RdmE4juINuc?si=XXqeZrV_B8PeTpY8",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 12 ខែ​ មករា ឆ្នាំ 2026 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+    "id":16,
+    "video": "https://www.youtube.com/embed/enFNxcJkrHQ?si=Sy2gdY9UomdAkjfi",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 23 ខែ​ ធ្នូ ឆ្នាំ 2025 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+     "id":17,
+    "video": "https://www.youtube.com/embed/vPwoo2vmGO4?si=5Xde_dogZn4U0H41",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 22 ខែ​ ធ្នូ ឆ្នាំ 2025 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+     "id":18,
+    "video": "https://www.youtube.com/embed/BmRJUoPlPmo?si=rzs1L5hetWCWJFJV",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 17 ខែ​ ធ្នូ ឆ្នាំ 2025 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+     "id":19,
+    "video": "https://www.youtube.com/embed/R8uol2zKBR0?si=crONjw6kAgf-X0zQ",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 15 ខែ​ ធ្នូ ឆ្នាំ 2025 អត្ថាធិប្បាយដោយ លោក ហរ ង៉ែត ",
     "category": "Sport"
   },
   {
-    "video": "https",
-    "text": "Sport ",
+     "id":20,
+    "video": "https://www.youtube.com/embed/B7zBWZXQmUo?si=SEkS7UWj8mUXDbm2",
+    "text": "ព័ត៌មានកីឡាអន្តរជាតិប្រចាំថ្ងៃទី 11 ខែ​ ធ្នូ ឆ្នាំ 2025 អត្ថាធិប្បាយដោយ លោក កែវ អារុណ ",
     "category": "Sport"
   },
   
   {
-    "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "Business ",
+    "id":21,
+    "video": "https://www.youtube.com/embed/g2q_2BNlzTo?si=NcO5-QlzGvjAD_8p",
+    "text": "ស្ថាន​ភាព​អាជីវកម្ម​ ធនាគារ​នៅ​កម្ពុជា",
     "category": "Business"
   }
   ,{
-    "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "Business ",
+    "id":22,
+    "video": "https://www.youtube.com/embed/5tjYLGFli3o?si=YhkGJf6Bn0XKomUw",
+    "text": "ជា តុងហ៊ួរ៖ មុខរបរ ១០ យ៉ាងចំណាយទុនតិច តែបង្កើតចំណូលពាន់ដុល្លារ | Chea Tong Hour ",
     "category": "Business"
   }
-  ,
+  ,{
+    "id":23,
+    "video": "https://www.youtube.com/embed/HVLtT1FRbJc?si=_0QpYoGRjba1wO5z",
+    "text": "ខ្មែរអាចធ្វើបាន! ISI STEEL ពីសិប្បកម្មលក្ខណៈគ្រួសារ ទៅជាឧស្សាហកម្មកែច្នៃដែកឈានមុខគេ ",
+    "category": "Business"
+  }
+  ,{
+    "id":24,
+    "video": "https://www.youtube.com/embed/E3_gf8R2bJ8?si=YAJ_hbVe18MFSSM_",
+    "text": "យុទ្ធសាស្ត្រក្នុងការបង្កើតអាជីវកម្ម | លោក កែវ ឡង់ឌី Keo Lundi | success knowledge ",
+    "category": "Business"
+  }
+  ,{
+    "id":25,
+    "video": "https://www.youtube.com/embed/BVi5n72CXr8?si=NQiFNSG3VujSjBdv",
+    "text": "ធ្លាប់តែនាំចូលម្សៅស៊ុប១ឆ្នាំរាប់សិបលាន$ ឥឡូវខ្មែរធ្វើបានហើយ ដែលច្នៃចេញពីវត្ថុធាតុដើមក្នុងស្រុក១០០%",
+    "category": "Business"
+  }
+  ,{
+    "id":26,
+    "video": "https://www.youtube.com/embed/4XvxMa1au60?si=JnO0xux9Zy7Xr79c",
+    "text": "ហេតុអ្វីបានអាជីវកម្មនៅកម្ពុជាខ្លះដំណើរការល្អតែនៅពេលបើកដំបូង?",
+    "category": "Business"
+  }
+  ,{
+    "id":27,
+    "video": "https://www.youtube.com/embed/VlWNRI-k0KM?si=pGZiDoOigq3wCMG_",
+    "text": "តើការចុះបញ្ជីអាជីវកម្មខ្នាតតូចត្រូវចំណាយប្រាក់ប៉ុន្មាន? និងត្រូវមានឯកសារអ្វីខ្លះ? | BC News",
+    "category": "Business"
+  }
+  ,{
+    "id":28,
+    "video": "https://www.youtube.com/embed/tz7b6cYNKrs?si=0xTyQY6_SoDHE-Zx",
+    "text": "យល់ដឹងពីជំនួញ៖ អាជីវកម្មដែលមាន​ចំណូលដុល​ប្រចាំឆ្នាំតិចជាង ២៥០លានរៀល ​ឬ៦ម៉ឺនដុល្លារ ​មិនតម្រូវ... ",
+    "category": "Business"
+  }
+  ,{
+    "id":29,
+    "video": "https://www.youtube.com/embed/CFFOKrFE5iY?si=EfYnbMtvxrX6JjwZ",
+    "text": "​សម្តេចធិបតី ហ៊ុន ម៉ាណែត៖ បងប្អូនអាជីវករខ្នាតតូច ​ដែលទទួលបានចំណូលដុលក្រោម២៥០លានរៀល នឹងមិនតម្រូវ...",
+    "category": "Business"
+  }
+  ,{
+    "id":30,
+    "video": "https://www.youtube.com/embed/06cM9wTcYHk?si=L3aiwvKuNveX58BX",
+    "text": "(ប្រសាសន៍ដើម)៖ សម្តេចធិបតី ហ៊ុន ម៉ាណែត៖ ការធ្លាក់ចំណូលពន្ធគយ ពីការនាំចូលរថយន្តមិនជាបញ្ហានោះទេ ",
+    "category": "Business"
+  }
+ ,
   {
+    "id":31,
+    "video": "https://www.youtube.com/embed/qik9-s_Ym4k?si=fq3E3us5WrESYFuS",
+    "text": "លោក ហ៊ឹន សុភាព៖ ការប្រើប្រាស់បច្ចេកវិទ្យាឌីជីថល និង AIនៅកម្ពុជាមានការកើនឡើង",
+    "category": "IT"
+  },
+  {
+    "id":32,
+    "video": "https://www.youtube.com/embed/7xTAgl-VA6U?si=mHBzjR4oOJOaNvY8",
+    "text": "ព័ត៌មានថ្មី ៖ កម្ពុជាធ្វើបានហើយ! បច្ចេកវិទ្យាស្នាដៃកូនខ្មែរ ចាប់ផ្តើមនាំចេញទៅលក់នៅបរទេសហើយ",
+    "category": "IT"
+  },
+  {
+    "id":33,
+    "video": "https://www.youtube.com/embed/yVk2v7GitUU?si=assdQNRUpRvbHujc",
+    "text": "កម្ពុជានឹងសាងសង់សួនបច្ចេកវិទ្យាឌីជីថលទំហំជាង១០០ហិកតា",
+    "category": "IT"
+  },
+  {
+    "id":34,
+    "video": "https://www.youtube.com/embed/rJTB3kgb5w4?si=-EVxnpymNkY767I-",
+    "text": "បច្ចេកវិទ្យាបញ្ញាសិប្បនិម្មិត (Artificial Intelligence)",
+    "category": "IT"
+  },
+  {
+    "id":35,
     "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "Art",
+    "text": "IT",
+    "category": "IT"
+  },
+  {
+    "id":36,
+    "video": "https://www.youtube.com/embed/F01bOouqvds?si=TeCO8Q4JkkUE0bzh",
+    "text": "ការប្រើប្រាស់បច្ចេកវិទ្យាទំនើប AI-GateMaster.ai ដំបូងគេនៅកម្ពុជា",
+    "category": "IT"
+  },
+  {
+    "id":37,
+    "video": "https://www.youtube.com/embed/uVBSsnHta-k?si=5iSakHeKk_6gbiBR",
+    "text": "លោកហ៊ុន ម៉ាណែតថា ការប្រើបច្ចេកវិទ្យា AI មិនត្រឹមត្រូវនឹងបង្កភាពអវិជ្ជមានដល់សង្គម",
+    "category": "IT"
+  },
+  {
+    "id":38,
+    "video": "https://www.youtube.com/embed/AaGwZC3vXOk?si=bLFbkyf-VAG-02DZ",
+    "text": "ហេតុអ្វីបានជា Hacker ខ្លាច iPhone? អាថ៌កំបាំងនៅពីក្រោយ «របងដែក» របស់ iOS",
+    "category": "IT"
+  },
+  {
+    "id":39,
+    "video": "https://www.youtube.com/embed/L9ytrDjmLTQ?si=udw8uDn0rYRyZLHK",
+    "text": "បិតាបច្ចេកវិទ្យា AI ព្រមានថា AI នឹងធ្វើឱ្យមនុស្សបាត់បង់ការងារយ៉ាងសម្បើម",
+    "category": "IT"
+  },
+  {
+    "id":40,
+    "video": "https://www.youtube.com/embed/RYiyJEqsjtU?si=rTd7Sh5PHOKugZrw",
+    "text": "យុវជនបង្ហាញក្តីស្រមៃអភិវឌ្ឍបច្ចេកវិទ្យានៅកម្ពុជា",
+    "category": "IT"
+  }
+   ,
+  {
+    "id":41,
+    "video": "https://www.youtube.com/embed/KDGeO0TF89Q?si=P8vAXjD_9EwU4sZW",
+    "text": "[27-03-26] តារាភេទទី៣គីឡូធ្ងន់ ផេន ខេក បរាជ័យរឿងស្នេហាជាថ្មី !",
     "category": "Art"
   },{
+    "id":42,
     "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "Art",
+    "text": "[30-03-26] ទីផ្សារសិល្បៈងើបឡើងវិញរហូតកាន់តំណែងធំ ធ្វើអោយ យក់ ឋិតរដ្ឋា រំភើប អួលដើក រហូតស្រក់ទឹកភ្នែក",
     "category": "Art"
-  },
-  {
-    "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "IT",
-    "category": "IT"
-  },
-  {
-    "video": "https://www.youtube.com/embed/DwtFTFk_0Yg?si=hk-HBKez3jKSnxTW",
-    "text": "IT",
-    "category": "IT"
+  },{
+    "id":43,
+    "video": "https://www.youtube.com/embed/Zvv5c2t_Zsc?si=FYcenJ9cI9xKV_ou",
+    "text": "[27-03-26] ជិលី ទេវី បោះសម្តីដាក់ក្រុមជ្រុលនិយម ថៃ ប៉ងចង់លួចវប្បធម៌ខ្មែរ ចំៗមិនញញើតមាត់ !",
+    "category": "Art"
+  },{
+    "id":44,
+    "video": "https://www.youtube.com/embed/m1vzYi8IA20?si=EkAFuQ5-G5qb72aU",
+    "text": "យក់ ឋិតរដ្ឋានៅតែអ៊ែម! កូន៣វ័យជ្រេតិចមែនតែ BA កុងត្រា៣ឆ្នាំពេញ",
+    "category": "Art"
+  },{
+    "id":45,
+    "video": "https://www.youtube.com/embed/q8mSbcmi9NY?si=A2r5FNigftTlBXyR",
+    "text": "កៀកថ្ងៃទៅច្រៀងនៅទីក្រុងTokyo ក្លឹប RAISE បង្ហាញរូបភាពតារារ៉េប វណ្ណដា ប៉ុន្មានសន្លឹកធ្វើឱ្យអ្នកគាំទ្រ",
+    "category": "Art"
   }
 ]

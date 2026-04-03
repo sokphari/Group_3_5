@@ -117,29 +117,39 @@ body{
    }
 @media (min-width: 1024px) {
     .logoForCombodiaEconomy{
-    width: 130px;
-    height: 60px;
-}
-    .nav-item-design {
-        width: auto;
-        height: 40px;
-        display: flex;
-        align-items: center;
-        border-radius: 30px;
-        margin-right: 10px;
-        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
-        transition: all .2s linear;
+        width: 130px;
+        height: 60px;
     }
-    .nav-item-design:hover{
-        transform: scale(1.05);
+       .nav-link-design::before, .nav-link-design::after {
+        content: "";
+        position: absolute;
+        bottom: -5px; 
+        height: 2px;
+        width: 0;
+        background-color: rgb(255, 255, 255);
+        transition: all .3s ease;
     }
     .nav-link-design {
-        font-size: 18px ;
-        transition: all .2s linear;
+        font-size: 24px ;
+        position: relative;
+        display: inline-block;
     }
-    .nav-link-design:hover{
-        text-decoration: underline rgb(102, 102, 102);
+    .menu::before, .menu::after {
+        content: "";
+        position: absolute;
+        bottom: -5px; 
+        height: 2px;
+        width: 0;
+        background-color: rgb(255, 255, 255);
+        transition: all .3s ease;
     }
+    
+    .nav-link-design::before { left: 50%; }
+    .nav-link-design::after { right: 50%; }
+    
+    .nav-link-design:hover::before { width: 45%; left: 5%; }
+    .nav-link-design:hover::after { width: 45%; right: 5%; }
+   
     .icon{
         font-size: 18px;
     }

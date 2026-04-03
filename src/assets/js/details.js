@@ -54,3 +54,36 @@ fetch("src/components/details.html")
 });
 
 
+fetch("./json/data.json")
+  .then(res => res.json())
+  .then(data => {
+    allData = data;
+    displayData(data); // show all first
+  });
+
+function displayData(data){
+  let container = document.getElementById("videoCard");
+  container.innerHTML = "";
+
+  data.forEach(item => {
+    let card = `
+    <a href="../../components/details.html?id=${item.id}" class="text-decoration-none text-dark">
+      <div class="card mt-2 p-0">
+        <div class="row g-0">
+          <div class="col-5">
+            <img src="${item.img}" alt="">
+          </div>
+          <div class="col-7">
+            <div class="card-body p-2">
+              <p class="card-title ">${item.cardTitle}</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </a>
+    `;
+    container.innerHTML += card;
+  });
+}
+
+

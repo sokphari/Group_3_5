@@ -9,6 +9,21 @@ document.querySelectorAll("a").forEach(link => {
   };
 });
 
+/* ================= NAVBAR SCROLL ================= */
+let lastScroll = 0;
+const navbar = document.querySelector(".navmenu");
+
+window.addEventListener("scroll", () => {
+  let currentScroll = window.pageYOffset;
+
+  if (currentScroll > lastScroll) {
+    navbar.classList.add("hide"); // scroll down
+  } else {
+    navbar.classList.remove("hide"); // scroll up
+  }
+
+  lastScroll = currentScroll;
+});
 
 fetch("src/assets/js/json/data.json")
   .then(res => res.json())
@@ -104,7 +119,6 @@ fetch("src/assets/js/json/data.json")
 
   });
 
-  
 /* change color */
   function toggleColor() {
     document.body.classList.toggle("dark-mode");
