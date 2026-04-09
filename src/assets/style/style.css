@@ -3,17 +3,20 @@
     margin: 0;
     box-sizing: border-box;
 }
--*
+
+   /* Navigation */
 .container-fluid {
 
     & nav {
         /* padding: 0 90px; */
 
-        .head {
-            background-color: dodgerblue;
-
+        & .head {
             & .nav-link {
-                padding: 1px 120px;
+                padding: 0 120px;
+
+                & a{
+                    font-size: 12px;
+                }
             }
         }
 
@@ -24,8 +27,8 @@
             }
         }
 
-        & .search {
-            width: 20rem;
+        & .search_default{
+            width: px;
         }
 
         & .register-search {
@@ -36,11 +39,7 @@
                 display: flex;
             }
 
-            & form{
-                align-items: center;
-            }
-
-            & .search{
+            & .search_modal{
                 height: 30px;
             }
         }
@@ -62,19 +61,39 @@
     }
 }
 
-
 /* Benner */
 
 .benner{
-    width: 100%;
-    height: 500px;
-    background-image: url("https://t4.ftcdn.net/jpg/06/31/47/93/360_F_631479392_ZIDxzFDUoBYg8VchTRJ7TjQWlmD0J920.jpg");
+    height: auto;
+    background-image: url("https://png.pngtree.com/thumb_back/fh260/back_our/20190617/ourmid/pngtree-blue-technology-e-commerce-learning-education-business-poster-banner-image_123753.jpg");
     border-image: linear-gradient(rgba(4, 3, 3, 0.593), rgba(4, 3, 3, 0.593)) fill 1;
     background-size: cover;
     background-repeat: no-repeat;  
 
-    & h1{
-        font-size: 5rem;
+    & .box{
+        /* height: 400px; */
     }
+
+    & .text{
+        /* padding: 5rem; */
+
+        & .link{
+
+            & a{
+                font-size: 13px;
+            }
+        }
+
+
+    }
+
+    & .Certificat{
+
+        & p{
+            font-size: 2.5rem;
+        }
+
+    }
+
 
 }
