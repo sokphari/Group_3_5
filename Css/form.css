@@ -31,3 +31,24 @@ p{
   border-radius: 20px;
   
 }
+.btn-sendmessage {
+  background-color: orangered;
+}
+.btn-sendmessage:hover {
+  background-color: rgb(0, 0, 0);
+  
+}
+
+input {
+  width: 100%;
+  padding: 4px;
+  border: 2px solid #dfe6e9;
+  border-radius: 10px;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+}
+
+input:focus {
+  outline: none;
+  border-color: #ff9f43;
+}

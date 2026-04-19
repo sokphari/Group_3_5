@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pet Haven Login</title>
+    <link rel="icon" type="image/png" href="../Image/Logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+<style>
+
+body {
+    background-color: #f0f7f4; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    background: #ffffff;
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+    border-top: 8px solid #ff9f43;
+}
+
+.paw-icon {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: #2d3436;
+    margin: 0;
+}
+
+p {
+    color: #636e72;
+    margin-bottom: 30px;
+}
+
+.input-group {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    color: #2d3436;
+    font-weight: 600;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 2px solid #dfe6e9;
+    border-radius: 10px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+input:focus {
+    outline: none;
+    border-color: #ff9f43;
+}
+
+.login-btn {
+    width: 100%;
+    padding: 14px;
+    background-color: #ff9f43;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.login-btn:hover {
+    background-color: #ee5253; /* Changes to a soft red on hover */
+    transform: translateY(-2px);
+}
+
+.form-footer {
+    margin-top: 25px;
+    font-size: 14px;
+}
+
+.form-footer a {
+    color: #ff9f43;
+    text-decoration: none;
+    display: block;
+    margin-top: 8px;
+}
+
+.form-footer a:hover {
+    text-decoration: underline;
+}
+</style>
+
+<body>
+    <div class="login-container">
+        <div class="form-header">
+            <div class="paw-icon"><i class="fa-solid fa-paw"></i></div>
+            <h2>Welcome Back!</h2>
+            <p>Ready to see your furry friends?</p>
+        </div>
+
+        <form>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" placeholder="Example@gmail.com" required>
+            </div>
+
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" placeholder="••••••••" required>
+            </div>
+
+            <button type="submit" class="login-btn">Log In</button>
+
+            <div class="form-footer">
+                <a href="#">Forgot password?</a>
+                <span>Don't have an account? <a href="#">Sign Up</a></span>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
