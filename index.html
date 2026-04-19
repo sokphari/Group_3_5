@@ -16,726 +16,1142 @@
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="src/assets/style/style.css">
-    <link rel="stylesheet" href="./src/output.css">
 </head>
 
 <body>
 
-    <!--   Navigation bar   -->
+    <!-- HEADER PAGE -->
+    <section>
+        <div class="container-fluid p-0 py-0 ">
 
-    <div class="container-fluid p-0 py-0 ">
-        <nav class="navbar-cotainer px-0">
+            <!--   Navigation bar   -->
 
-            <!-- nav-header -->
+            <nav class="navbar-cotainer px-0">
 
-            <div class="img">
-                <img src="https://assets.td.org/transform/39b9c033-2c93-4610-984b-3d5b60c83aa0/Member-Month-Extension"
-                    alt="">
-            </div>
-            <div class="head border-1 border-start-0 border-end-0 border-top-0 px-0">
-                <div class="nav-link justify-content-center d-flex gap-4 px-0 justify-content-lg-end px-lg-5">
-                    <list class="justify-content-center"><a href="#"
-                            class="text-decoration-none fw-normal text-dark">ATD
-                            Community</a></list>
-                    <list class="justify-content-center"><a href="#"
-                            class="text-decoration-none fw-normal text-dark">Chapters</a>
-                    </list>
-                    <list class="justify-content-center"><a href="#" class="text-decoration-none fw-normal text-dark">
-                            <i class="fa-solid fa-globe"></i>
-                            ATD Global
-                        </a></list>
-                    <list class="justify-content-center"><a href="#" class="text-decoration-none fw-normal text-dark">
-                            <i class="fa-solid fa-phone"></i>
-                            Contact Us
-                        </a></list>
+                <!-- nav-header -->
+
+                <!-- <div class="img">
+                    <img src="https://assets.td.org/transform/39b9c033-2c93-4610-984b-3d5b60c83aa0/Member-Month-Extension"
+                        alt="">
+                </div> -->
+                <div class="head px-0 py-1 bg-body-tertiary">
+                    <div class="nav-link justify-content-center d-flex gap-4 px-0 justify-content-lg-end px-lg-5">
+                        <list class="justify-content-center"><a href="#"
+                                class="text-decoration-none fw-normal text-dark">ATD
+                                Community</a></list>
+                        <list class="justify-content-center"><a href="#"
+                                class="text-decoration-none fw-normal text-dark">Chapters</a>
+                        </list>
+                        <list class="justify-content-center"><a href="#"
+                                class="text-decoration-none fw-normal text-dark">
+                                <i class="fa-solid fa-globe"></i>
+                                ATD Global
+                            </a></list>
+                        <list class="justify-content-center"><a href="#"
+                                class="text-decoration-none fw-normal text-dark">
+                                <i class="fa-solid fa-phone"></i>
+                                Contact Us
+                            </a></list>
+                    </div>
                 </div>
-            </div>
 
-            <!-- nav-body -->
+                <!-- nav-body -->
 
-            <div class="brand navbar py-0 px-2 px-md-5 py-lg-1">
-                <!-- logo -->
-                <div class="logo justify-content-center d-flex">
-                    <a class="navbar-brand" href="#">
-                        <img src="src/assets/images/logo (1).svg" style="width: 200px">
-                    </a>
-                </div>
-                <!-- search -->
-                <form class="search_default d-none d-md-flex" role="search">
-                    <input class="search form-control rounded-4 outline-0 border-success me-2" style="width: 300px;"
-                        type="search" placeholder="Search" aria-label="Search" />
-                </form>
-                <div class="register-search gap-4 d-flex">
-                    <!-- search-icon -->
-                    <button type="button" class="d-md-none" data-bs-toggle="modal" data-bs-target="#search">
-                        <i class="fa-solid fa-magnifying-glass text-dark" data-bs-toggle="modal"
-                            data-bs-target="#search"></i>
-                    </button>
-                    <!-- Modal -->
-                    <div class="modal fade" id="search">
-                        <div class="modal-dialog">
-                            <div class="modal-content p-0">
-                                <div class="modal-header">
-                                    <form class="d-flex px-2" role="search">
-                                        <label class="flex-nowrap" for="">Find your Courses</label>
-                                         <input class="search_modal form-control rounded-2 outline-0 me-2 w-75"
-                                            type="search" placeholder="Search" aria-label="Search" />
-                                    </form>
-                                    <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                        aria-label="Close"></button>
+                <div class="brand navbar py-0 px-2 px-md-5 py-lg-1">
+                    <!-- logo -->
+                    <div class="logo justify-content-center d-flex">
+                        <a class="navbar-brand" href="#">
+                            <img src="src/assets/images/logo (1).svg" style="width: 200px">
+                        </a>
+                    </div>
+                    <!-- search -->
+                    <form class="search_default d-none d-md-flex" role="search">
+                        <input class="search form-control rounded-4 outline-0 border-success me-2" style="width: 300px;"
+                            type="search" placeholder="Search" aria-label="Search" />
+                    </form>
+                    <div class="register-search gap-4 d-flex">
+                        <!-- search-icon -->
+                        <button type="button" class="d-md-none bg-white border-0" data-bs-toggle="modal"
+                            data-bs-target="#search">
+                            <i class="fa-solid fa-magnifying-glass text-dark" data-bs-toggle="modal"
+                                data-bs-target="#search"></i>
+                        </button>
+                        <!-- Modal -->
+                        <div class="modal fade" id="search">
+                            <div class="modal-dialog">
+                                <div class="modal-content p-0">
+                                    <div class="modal-header">
+                                        <form class="d-flex px-2 justify-content-center" role="search">
+                                            <!-- <label class="flex-nowrap" for="">Find your Courses</label> -->
+                                            <input class="search_modal form-control rounded-2 outline-0 me-2 my-2"
+                                                type="search" placeholder="Find your course" aria-label="Search" />
+                                        </form>
+                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                            aria-label="Close"></button>
+                                    </div>
                                 </div>
                             </div>
                         </div>
-                    </div>
 
-                    <a class="py-1 fw-normal text-dark d-none d-lg-flex" href="#" role="button">Become a Member</a>
-                    <a class="" href="#" role="button"><button type="button"
-                            class="btn btn-outline-success">Register</button></a>
+                        <a class="py-1 fw-normal text-success d-none d-lg-flex" href="#" role="button">Become a
+                            Member</a>
+                        <!-- <button type="button" class="btn btn-outline-success text-decoration-none">Register</button> -->
+
+                        <!-- Example single danger button -->
+                        <div class="position-relative Register">
+                            <button type="button" class="btn text-dark border border-dark" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Sign In/Register
+                            </button>
+                            <ul class="dropdown-menu p-3 bg-body-tertiary">
+                                <div class="title d-flex justify-content-center">
+                                    <li><a class="dropdown-item card-title text-center py-0 fw-medium" href="#">Sign
+                                            In/Register</a></li>
+                                </div>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <div class="block-btn d-flex flex-column gap-2" style="width: 300px;">
+                                    <a class="btn border-0 border-secondary text-light w-100 rounded-pill fw-bold btn-primary"
+                                        href="" role="button">Login</a>
+                                    <a class="btn border border-secondary text-body w-100 rounded-pill fw-bold form-control-plaintext text-body-tertiary"
+                                        href="" role="button">Register</a>
+                                </div>
+                                <li>
+                                    <hr class="dropdown-divider">
+                                </li>
+                                <li><a class="dropdown-item card-footer text-center fw-normal text-secondary"
+                                        href="#">Instructional Subscriber? Click here to sign in</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <!-- nav-footer -->
+            <div class="nav-footer ">
+                <div
+                    class="link justify-content-center p-1 gap-4 d-none d-lg-flex gap-xl-5 border-start-0 border-end-0">
+
+                    <!-- link 1 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Explore
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100 px-5">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Latest form ATD</h5>
+                                    <a href="" class="text-decoration-none text-dark">See All Blogs</a>
+                                    <a href="" class="text-decoration-none text-dark">Newsletters</a>
+                                    <a href="" class="text-decoration-none text-dark">Podcasts</a>
+                                    <a href="" class="text-decoration-none text-dark">Videos</a>
+                                    <a href="" class="text-decoration-none text-dark">Upcoming Webinars</a>
+                                    <a href="" class="text-decoration-none text-dark">Glossary of TD Terms</a>
+                                    <a href="" class="text-decoration-none text-dark">Talent Development Career
+                                        Pathways</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Topics</h5>
+                                    <a href="" class="text-decoration-none text-dark">AI Resources</a>
+                                    <a href="" class="text-decoration-none text-dark">Career and Leadership
+                                        Development</a>
+                                    <a href="" class="text-decoration-none text-dark">Change Management</a>
+                                    <a href="" class="text-decoration-none text-dark">Coaching</a>
+                                    <a href="" class="text-decoration-none text-dark">Diversity, Equity and
+                                        Inclusion</a>
+                                    <a href="" class="text-decoration-none text-dark">Evaluating Impact</a>
+                                    <a href="" class="text-decoration-none text-dark">Government</a>
+                                </div>
+                                <div class="list3 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">About ATD</h5>
+                                    <a href="" class="text-decoration-none text-dark">About Us</a>
+                                    <a href="" class="text-decoration-none text-dark">Board of Directors</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Press Room</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Awards</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/abe54c4e-881a-45bc-a09c-38ca50f8c1c9/ICE2026_Logo_Temp"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 2 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Courses & Certifications
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100 px-5">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Find a course</h5>
+                                    <a href="" class="text-decoration-none text-dark">ATD Education</a>
+                                    <a href="" class="text-decoration-none text-dark">Certificates</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Master Programs</a>
+                                    <a href="" class="text-decoration-none text-dark">Leadership Certificates</a>
+                                    <a href="" class="text-decoration-none text-dark">Self-Paced Courses</a>
+                                    <a href="" class="text-decoration-none text-dark">Workshops</a>
+                                    <a href="" class="text-decoration-none text-dark">Search All Courses</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Learn My Way</h5>
+                                    <a href="" class="text-decoration-none text-dark">Face-to-Face</a>
+                                    <a href="" class="text-decoration-none text-dark">Live Online</a>
+                                    <a href="" class="text-decoration-none text-dark">On Demand</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Training</a>
+                                </div>
+                                <div class="list3 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Get Certified</h5>
+                                    <a href="" class="text-decoration-none text-dark">Certification Home</a>
+                                    <a href="" class="text-decoration-none text-dark">Associate Professional in Talent
+                                        Development APTD</a>
+                                    <a href="" class="text-decoration-none text-dark">Certified Professional in Talent
+                                        Development CPTD</a>
+                                    <a href="" class="text-decoration-none text-dark">Why Get Certified?</a>
+                                    <a href="" class="text-decoration-none text-dark">Certification Prep</a>
+                                    <a href="" class="text-decoration-none text-dark">Certification Portal</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/b4baa10f-ea2d-43f8-9d5e-b5679cc83f66/4383639907-CI-Evergreen-Meganav-r1-540x366_1"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 3 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Events
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100 px-5">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">US Events</h5>
+                                    <a href="" class="text-decoration-none text-dark">Events Home</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD International Conference &
+                                        EXPO</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Intensive</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Coaching Conference</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Chapter Leaders Conference</a>
+                                    <a href="" class="text-decoration-none text-dark">Core 4</a>
+                                    <a href="" class="text-decoration-none text-dark">Government Workforce</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Global Events</h5>
+                                    <a href="" class="text-decoration-none text-dark">AI Resources</a>
+                                    <a href="" class="text-decoration-none text-dark">Career and Leadership
+                                        Development</a>
+                                    <a href="" class="text-decoration-none text-dark">Global Events Home</a>
+                                    <a href="" class="text-decoration-none text-dark">Global Events Partner and
+                                        Sponsorship Opportunities</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/abe54c4e-881a-45bc-a09c-38ca50f8c1c9/ICE2026_Logo_Temp"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 4 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Membership
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">About Membership</h5>
+                                    <a href="" class="text-decoration-none text-dark">Why Join?</a>
+                                    <a href="" class="text-decoration-none text-dark">Convince Your Boss</a>
+                                    <a href="" class="text-decoration-none text-dark">Chapter Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">Forum Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">CTDO Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">Join Today</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">For Members</h5>
+                                    <a href="" class="text-decoration-none text-dark">ATD Community</a>
+                                    <a href="" class="text-decoration-none text-dark">Benefits Center</a>
+                                    <a href="" class="text-decoration-none text-dark">Newest Benefits</a>
+                                    <a href="" class="text-decoration-none text-dark">Member Toolkit</a>
+                                    <a href="" class="text-decoration-none text-dark">Online TDBoK Guide</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/72a7ca26-96f0-45f4-a8e4-de6e303e1173/mbr-all-awareness-2026-starbucksgc0413-meganav"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 5 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Publications
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">ATD Press Books</h5>
+                                    <a href="" class="text-decoration-none text-dark">New and Featured Books</a>
+                                    <a href="" class="text-decoration-none text-dark">Search All Books</a>
+                                    <a href="" class="text-decoration-none text-dark">Search All Book Bundles</a>
+                                    <a href="" class="text-decoration-none text-dark">TDBoK Guide</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Research</h5>
+                                    <a href="" class="text-decoration-none text-dark">Research Home</a>
+                                    <a href="" class="text-decoration-none text-dark">Research Reports</a>
+                                    <a href="" class="text-decoration-none text-dark">The State of the Industry
+                                        Report</a>
+                                    <a href="" class="text-decoration-none text-dark">Search All Reports</a>
+                                    <a href="" class="text-decoration-none text-dark">New and Featured Reports</a>
+                                </div>
+                                <div class="list3 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Periodicals</h5>
+                                    <a href="" class="text-decoration-none text-dark">TD Magazine</a>
+                                    <a href="" class="text-decoration-none text-dark">TD at Work Guides</a>
+                                    <a href="" class="text-decoration-none text-dark">Subscription Info</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/433c907c-0783-4f23-84ce-d87518b572ea/4329446349_PUBS-Running-L-D-Like-Business-LaunchGfx_540x366"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 6 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Resources
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Team Solutions</h5>
+                                    <a href="" class="text-decoration-none text-dark">Solutions Overview</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Training</a>
+                                    <a href="" class="text-decoration-none text-dark">Enterprise Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Certification</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Conference Attendance</a>
+                                    <a href="" class="text-decoration-none text-dark">Talent Development Leader</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Shop Resources</h5>
+                                    <a href="" class="text-decoration-none text-dark">Books</a>
+                                    <a href="" class="text-decoration-none text-dark">TD Magazine</a>
+                                    <a href="" class="text-decoration-none text-dark">Merchandise</a>
+                                    <a href="" class="text-decoration-none text-dark">Research Reports</a>
+                                    <a href="" class="text-decoration-none text-dark">TD at Work Guides</a>
+                                    <a href="" class="text-decoration-none text-dark">TDBoK Guide</a>
+                                </div>
+                                <div class="list3 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Shop Courses and Events</h5>
+                                    <a href="" class="text-decoration-none text-dark">Search All Courses</a>
+                                    <a href="" class="text-decoration-none text-dark">Conferences</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/abe54c4e-881a-45bc-a09c-38ca50f8c1c9/ICE2026_Logo_Temp"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <!-- link 7 -->
+                    <li class="list-unstyled">
+                        <a class="link-offset-3 text-black link-offset-3-hover link-underline link-success link-underline-opacity-0 link-underline-opacity-100-hover link-underline-warning"
+                            href="#">
+                            Enterprise Solutions
+                        </a>
+                        <div class="d-flex drop_down px-5">
+                            <div class="group-list justify-content-center d-flex bg-white shadow w-100">
+                                <div class="list1 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Team Solutions</h5>
+                                    <a href="" class="text-decoration-none text-dark">Solutions Overview</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Training</a>
+                                    <a href="" class="text-decoration-none text-dark">Enterprise Membership</a>
+                                    <a href="" class="text-decoration-none text-dark">Team Certification</a>
+                                </div>
+                                <div class="list2 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Assessments & Resources</h5>
+                                    <a href="" class="text-decoration-none text-dark">Strategic Advisory Services</a>
+                                    <a href="" class="text-decoration-none text-dark">Enterprise Skills Gap
+                                        Assessment</a>
+                                    <a href="" class="text-decoration-none text-dark">L&D Strategy Consultation</a>
+                                    <a href="" class="text-decoration-none text-dark">Case Studies</a>
+                                    <a href="" class="text-decoration-none text-dark">Talent Development Leader
+                                        Resources</a>
+                                </div>
+                                <div class="list3 flex-column d-flex gap-2">
+                                    <h5 class="fw-medium">Planning & Budgeting</h5>
+                                    <a href="" class="text-decoration-none text-dark">Flexible Learning Pass</a>
+                                    <a href="" class="text-decoration-none text-dark">ATD Training Credits</a>
+                                </div>
+                                <div class="list4 image w-25 bg-body p-xl-4">
+                                    <img class="rounded-2"
+                                        src="https://assets.td.org/transform/f17f20fc-b08a-4a48-a432-eae3807dcabf/4364753104-ENT-ScheduleConsultation-MegaNav-504x336"
+                                        style="width: 100%;" alt="">
+                                </div>
+                            </div>
+                        </div>
+                    </li>
                 </div>
 
-                <!-- nav-footer -->
-
-        </nav>
-        <div class="nav-foot">
-            <div
-                class="link justify-content-center p-2 d-none d-md-flex gap-3 gap-lg-5 ga border- bg-light-subtle border-start-0 border-end-0">
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Explore</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Courses & Certifications</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Events</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Membership</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Publications</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Resources</a>
-                <a class="link-offset-2 link-offset-3-hover link-underline-info link-underline link-underline-opacity-0 link-underline-opacity-75-hover text-dark mx-xl-4 flex-nowrap"
-                    href="#">Enterprise Solutions</a>
             </div>
         </div>
 
         <!-- Benner -->
+        <div class="container-fluid p-0 px-0 justify-content-center align-middle">
+            <div class="row benner container-fluid px-0 m-0">
+                <!-- Text -->
+                <div class="box text px-5 py-5 col-lg-12 col-xl-6">
+                    <div class="link d-flex gap-2 mb-4 ">
+                        <list class="justify-content-center">
+                            <a href="#" class="text-decoration-none text-light fw-medium ">Home </a>
+                            <a href="#" class="text-decoration-none text-light fw-medium">/</a>
+                        </list>
+                        <list class="justify-content-center">
+                            <a href="#" class="text-decoration-none text-light fw-medium">Education </a>
+                            <a href="#" class="text-decoration-none text-light fw-medium">/</a>
+                        </list>
+                        <list class="justify-content-center">
+                            <a href="#" class="text-decoration-none text-light fw-medium">Courses by Role </a>
+                            <a href="#" class="text-decoration-none text-light fw-medium">/ </a>
+                        </list>
+                        <list class="justify-content-center">
+                            <a href="#" class="text-decoration-none text-light fw-medium">E-Learning Professional</a>
+                        </list>
+                    </div>
+                    <h1 class="text-light px-0 fs-2 fs-1">Are You an E-Learning Professional?</h1>
+                    <p class="text-light fw-medium mt-4">As an e-learning professional, you take on many roles, from
+                        creating online courses to designing
+                        virtual classroom experiences. Whatever role you play, ATD's courses equip you with the skills
+                        you
+                        need.</p>
 
-    </div>
-    <div class="container-fluid p-0 px-0 justify-content-center align-middle">
-        <div class="row benner container-fluid px-0 m-0">
-            <div class="box text px-5 py-5 col-lg-12 col-xl-6">
-                <div class="link d-flex gap-2 mb-4 ">
-                    <list class="justify-content-center">
-                        <a href="#" class="text-decoration-none text-light fw-medium ">Home </a>
-                        <a href="#" class="text-decoration-none text-light fw-medium">/</a>
-                    </list>
-                    <list class="justify-content-center">
-                        <a href="#" class="text-decoration-none text-light fw-medium">Education </a>
-                        <a href="#" class="text-decoration-none text-light fw-medium">/</a>
-                    </list>
-                    <list class="justify-content-center">
-                        <a href="#" class="text-decoration-none text-light fw-medium">Courses by Role </a>
-                        <a href="#" class="text-decoration-none text-light fw-medium">/ </a>
-                    </list>
-                    <list class="justify-content-center">
-                        <a href="#" class="text-decoration-none text-light fw-medium">E-Learning Professional</a>
-                    </list>
                 </div>
-                <h1 class="text-light px-0 fs-2 fs-1">Are You an E-Learning Professional?</h1>
-                <p class="text-light fw-medium mt-4">As an e-learning professional, you take on many roles, from
-                    creating online courses to designing
-                    virtual classroom experiences. Whatever role you play, ATD's courses equip you with the skills you
-                    need.</p>
+                <!-- Certificat -->
+                <div class="box Certinficat py-5 px-5 col-lg-12 col-xl-6">
+                    <div class="card p-4">
+                        <div class="card-body justify-content-center text-center">
+                            <div class="w-100 justify-content-center d-flex mb-4">
+                                <button type="button"
+                                    class="form-control-plaintext rounded-5 text-light w-75 bg-success text-center">
+                                    Certificate Program
+                                </button>
+                            </div>
 
-            </div>
-            <!-- Certificat -->
-            <div class="box Certinficat py-5 px-5 col-lg-12 col-xl-6">
-                <div class="card p-4">
-                    <div class="card-body justify-content-center text-center">
-                        <div class="w-100 justify-content-center d-flex mb-4">
-                            <button type="button"
-                                class="form-control-plaintext rounded-5 text-light w-50 bg-success text-center">
-                                Certificate Program
-                            </button>
-                        </div>
-
-                        <h4 class="card-title fw-normal mb-4">Articulate Rise Certificate</h4>
-                        <p class="card-subtitle mb-2 text-body-secondary"><span class="fw-medium text-dark">Members Pay:
-                                $1,395.00 </span> Non-Member Price: $1,695.00</p>
-                        <p class="card-text">Master the essentials of Articulate Rise with hands-on practice, expert
-                            feedback, and pro tips in this course. Start creating engaging e-learning today!</p>
-                        <a href="#" class="card-link fw-bold">View Course</a>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <section>
-        <div class="container">
-        <div class="text-center py-5">
-            <h1 class="fw-bold mb-3">Build a Solid TD Foundation</h1>
-            <p class="mx-auto fw-medium "  style="max-width: 500px;">Learning technology and instructional design go hand in hand in e-learning.
-                 Strengthen your skills to meet the unique challenges of creating effective, 
-                 engaging online learning experiences.
-            </p>
-    </div>
-<!-- card part1 -->
-    <div id="carouselExample" class="carousel slide carousel-primary">
-        <div class="carousel-inner">
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-primary rounded-circle p-3"></span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-primary rounded-circle p-3"></span>
-            </button>
-    <!-- slide1 -->
-            <div class="carousel-item active">
-                <div class="row g-3 justify-content-center">
-
-                    <!-- card1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://smowl.net/wp-content/uploads/2023/05/plataforma-elearning.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h3 class="card-title mt-2">E-Learning Instructional Design Certificate</h3>
-                            <p class="card-text">Use instructional design principles and models to design asynchronous e-learning courses that engage participants and meet business outcomes.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                        
-                        <!-- card2 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem;">
-                        <img src="https://www.vodacom.co.za/sites/vodacomcoza/files/2024-03/e-learning-123-stepper.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Virtual Instructional Design Certificate</h5>
-                            <p class="card-text">Build interactive, instructor-led, synchronous virtual learning experiences using proven instructional design principles. Drive participation and real-world learning outcomes.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                        
-                        <!-- card3 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem; ">
-                        <img src="https://www.articulate.com/wp-content/uploads/2024/12/iStock-2168107040-1024x683.jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Self Paced Course</small>
-                            <h5 class="card-title mt-2">Evaluating and Selecting E-Learning Software Tools</h5>
-                            <p class="card-text">Discover the types of e-learning tools available and the key considerations necessary to properly evaluate and select the right software for learners’ needs.</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slide 2 -->
-            <div class="carousel-item">
-                <div class="row g-3 justify-content-center">
-                    <!-- card1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://pukunui.com/wp-content/uploads/2025/10/flipped-classroom-training-moodle-practical-approach-84802.png" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Need Assessment Certificate</h5>
-                            <p class="card-text">Boost your professional credibility by learning the purpose, process, and payoffs of assessing individual and organizational performance needs.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
+                            <h4 class="card-title fw-normal mb-4">Articulate Rise Certificate</h4>
+                            <p class="card-subtitle mb-2 text-body-secondary"><span class="fw-medium text-dark">Members
+                                    Pay:
+                                    $1,395.00 </span> Non-Member Price: $1,695.00</p>
+                            <p class="card-text">Master the essentials of Articulate Rise with hands-on practice, expert
+                                feedback, and pro tips in this course. Start creating engaging e-learning today!</p>
+                            <a href="#" class="card-link fw-bold">View Course</a>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-<!-- part2 -->
-        <div class="text-center py-5">
-            <h1 class="fw-bold mb-3">Advance Your Skills & Application</h1>
-            <p class="mx-auto fw-medium "  style="max-width: 500px;">These specialized programs in e-learning tools and techniques help 
-                you boost engagement and enhance learning outcomes in online environments.
-            </p>
-        </div>
-    <!-- card part2 -->
-        <div id="carouselExample2" class="carousel slide carousel-primary">
-        <div class="carousel-inner">
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-primary rounded-circle p-3"></span>
-            </button>
+    </section>
 
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-primary rounded-circle p-3"></span>
-            </button>
-    <!-- slide1 -->
-            <div class="carousel-item active">
-                <div class="row g-3 justify-content-center">
+    <!-- BODY PAGE -->
+    <section class="bg-body-tertiary px-0 px-md-5">
+        <div class="container-fluid body-container px-0 px-md-5">
 
-                    <!-- card1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/87d3e37c-67d5-4c43-a1eb-baebb0dc1252/Adobe-Stock-137989033-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h3 class="card-title mt-2">Articulate Storyline: Advanced Techniques Certificate</h3>
-                            <p class="card-text">Build on your existing Storyline skills to create sophisticated, personalized, and accessible e-learning.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                        
-                        <!-- card2 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem;">
-                        <img src="https://assets.td.org/transform/1af08eba-46c8-4a4f-8f17-dbbc50111141/4-tricks-to-keep-video-costs-in-check-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Designing Training Videos Certificate</h5>
-                            <p class="card-text">Drawing on both media psychology and learning theory, discover a step-by-step process for designing video content to support learning.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                        
-                        <!-- card3 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/c1f77244-1cd4-4b88-b478-d97cf219392a/Content-creation-and-online-marketing-strategies-to-grow-their-digital-business-analyze-media-video-streaming-Man-holding-icon-ai-and-use-smartphone-Marketers-education-research" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">WorkShop</small>
-                            <h5 class="card-title mt-2">AI for Instructional Design Workshop</h5>
-                            <p class="card-text">Harness the power of generative AI to efficiently design and develop impactful learning experiences.</p>
-                            <a href="#" class="btn btn-primary">Learn more</a>
-                        </div>
-                        </div>
-                    </div>
+            <!-- section1 -->
+            <article class="section1">
+                <div class="text-center py-5">
+                    <h1 class="fw-bold mb-3">Build a Solid TD Foundation</h1>
+                    <p class="mx-auto fw-medium " style="max-width: 500px;">Learning technology and instructional design
+                        go
+                        hand in hand in e-learning.
+                        Strengthen your skills to meet the unique challenges of creating effective,
+                        engaging online learning experiences.
+                    </p>
                 </div>
-            </div>
-    <!-- slide 2 -->
-            <div class="carousel-item">
-                <div class="row g-3 justify-content-center">
-                    <!-- card1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/69a758dc-1cd7-4d6c-a6dd-79b707487a39/Adobe-Stock-478494545-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Articulate Rise Certificate</h5>
-                            <p class="card-text">Save time and increase the quality and impact of your e-learning projects by learning how to use this simple authoring tool.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
+                <!-- card part1 -->
+                <div id="carouselExample" class="carousel slide carousel-dark">
+                    <div class="carousel-inner py-3">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <!-- slide1 -->
+                        <div class="carousel-item active py-3">
+                            <div class="row gap-5 justify-content-center">
 
-                    <!-- card2 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/1ded5b48-75fa-4c60-85dc-f96c86fa3d13/Adobe-Stock-137171761-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Project Management Certificate</h5>
-                            <p class="card-text">Become an effective project manager with the skills to successfully initiate, plan, implement, and launch any talent development project.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-    </div>
-     
-
- <!-- part3-->
-        <div class="text-center py-5">
-            <h1 class="fw-bold mb-3">Elevate Your Strategic Impact</h1>
-            <p class="mx-auto fw-medium "  style="max-width: 500px;">Drive business impact with your e-learning programs with advanced skills 
-                in instructional design, authoring, evaluation, and performance improvement.
-            </p>
-        </div>
-    <!-- card part3 -->
-        <div id="carouselExample3" class="carousel slide carousel-primary">
-        <div class="carousel-inner">
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon bg-primary rounded-circle p-3"></span>
-            </button>
-
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-            <span class="carousel-control-next-icon bg-primary rounded-circle p-3"></span>
-            </button>
-            <!-- slide1 -->
-            <div class="carousel-item active">
-                <div class="row g-3 justify-content-center">
-                    <!-- card1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/6d91bebe-a364-4a5b-8a36-a23260ec4954/1564504827-EDU-Masters-Programs-ISD-b-372x185" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Master Program</small>
-                            <h5 class="card-title mt-2">Project Management Certificate</h5>
-                            <p class="card-text">Become an effective project manager with the skills to successfully initiate, plan, implement, and launch any talent development project.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                        
-                        <!-- card2 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src=" https://assets.td.org/transform/09078a9c-c26a-4593-9393-0632292eb203/Adobe-Stock-103251926-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Articulate Storyline: Advanced Techniques Certificate</h5>
-                            <p class="card-text">Build on your existing Storyline skills to create sophisticated, personalized, and accessible e-learning.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>]
-                        <!-- card3 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/5e689737-b23b-43a0-8a38-e2fa9f27794d/Adobe-Stock-76833400-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Human Performance Improvement Certificate</h5>
-                            <p class="card-text">Learn how to use the Human Performance Improvement (HPI) process, to help your stakeholders create bottom-line results. </p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- slide 2 -->
-            <div class="carousel-item">
-                <div class="row g-3 justify-content-center">
-                    <!-- card1 -->
-                   <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card " style="width: 18rem; ">
-                        <img src="https://assets.td.org/transform/cd15117f-68b0-45e5-ba11-048302eccfa3/Adobe-Stock-115039381-jpg" class="card-img-top" alt="...">
-                        <div class="card-body">
-                            <small class="text-uppercase fw-bold">Certificate Program</small>
-                            <h5 class="card-title mt-2">Evaluating Learning Impact Certificate</h5>
-                            <p class="card-text">Shift from activity-based to results-based learning programs by applying a comprehensive and scalable evaluation process.</p>
-                            <a href="#" class="btn btn-primary">Learn More</a>
-                        </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3" data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3" data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-        </button>
-        </div>
-<!--Q&A  -->
-        <div class="qa  ">
-            <div class="container">
-            <h1 class="text-center py-5">FAQ: Courses for E-Learning Professionals</h1>
-
-            <div class="accordion" id="faqAccordion">
-
-                <!-- Item 1 -->
-                <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
-                    What is an e-learning training professional?
-                    </button>
-                </h2>
-                <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                    An e-learning professional serves in a range of roles that support the creation of structured courses or learning 
-                    experiences delivered electronically, including online or computer-based learning, virtual classrooms, performance support materials, and digital collaboration and knowledge sharing.
-                    </div>
-                </div>
-                </div>
-
-                <!-- Item 2 -->
-                <div class="accordion-item">
-                <h2 class="accordion-header">
-                    <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
-                    What do e-learning training professionals do?
-                    </button>
-                </h2>
-                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                    <div class="accordion-body">
-                    E-learning professionals support the creation of e-learning training courses and may serve as instructional designers who specialize in creating e-learning curriculum, virtual trainers or facilitators who deliver online training on platforms like Zoom or Microsoft Teams, or learning 
-                    technologists who develop, assemble, or author e-learning courses using tools like Articulate Storyline or Articulate Rise.
-                    </div>
-                </div>
-            </div>
-        
-           
-            <!-- Item 3 -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
-                What core skills do e-learning training professionals need?
-                </button>
-            </h2>
-            <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                E-learning professionals often combine learning technology and instructional design skills to create engaging, effective online e-learning courses. Key skill areas include:
-                Instructional design for e-learning training : Applying learning theories and models, needs assessment, writing learning objectives, and structuring and sequencing engaging learner-centric e-learning courses and modules.Instructional design for e-learning training: Applying learning theories and models, needs assessment, writing learning objectives, and structuring and sequencing engaging learner-centric e-learning courses and modules.
-                E-learning authoring and tools : Using authoring tools (for example, Articulate Rise and other e-learning tools) to build interactive, media-rich e-learning courses.E-learning authoring and tools: Using authoring tools (for example, Articulate Rise and other e-learning tools) to build interactive, media-rich e-learning courses.
-                </div>
-            </div>
-            </div>
-
-            <!-- Item 4 -->
-            <div class="accordion-item">
-            <h2 class="accordion-header">
-                <button class="accordion-button collapsed fw-bold" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
-                What other skills do e-learning training professionals need to be successful?
-                </button>
-            </h2>
-            <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
-                <div class="accordion-body">
-                E-learning professionals often need project management and collaboration skills to successfully design and build online learning solutions. These skills include planning and managing e-learning training projects, 
-                coordinating with stakeholders, and using project management tools and processes to keep work on track.
-                </div>
-            </div>
-            </div>
-
-           </div>
-            </div>
-        </div>
-<!-- feedback -->
-         <div class="fd">
-            <div>
-                <h1 class="text-center py-5">Testimonials</h1>
-            </div>
-            <div class="card-fb">
-                <div class="row g-3 justify-content-center">
-                    <!-- fb1 -->
-                    <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                  <!-- TEXT -->
-                                <p class="card-text text-muted" style="font-size:14px;">
-                                   "This [Virtual Instructional Design Certificate] program was spot on for what I was looking for! It offered an excellent overview of the instructional design process from needs assessment. 
-                                   I gained new insights into selecting the best learning strategies."
-                                </p>
-
-                                <!-- USER INFO -->
-                                <div class="d-flex align-items-center mt-4">
-                                    <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
-                                        style="width:45px; height:45px;">BA
-                                    </div>
-
-                                    <div class="ms-3">
-                                        <h6 class="mb-0 fw-bold">Blake Austensen</h6>
+                                <!-- card1 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://smowl.net/wp-content/uploads/2023/05/plataforma-elearning.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h3 class="card-title mt-2">E-Learning Instructional Design Certificate</h3>
+                                            <p class="card-text">Use instructional design principles and models to
+                                                design
+                                                asynchronous e-learning courses that engage participants and meet
+                                                business
+                                                outcomes.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                        
-                        </div>
-                    </div>
-                    <!-- fb2 -->
-                     <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                  <!-- TEXT -->
-                                <p class="card-text text-muted" style="font-size:14px;">
-                                    I feel that this program [AI for Instructional Design Workshop] has taken my use of AI to the next level.
-                                    I am now better prepared to integrate the use of AI into the instructional design process as well as other aspects of my job.
-                                </p>
 
-                                <!-- USER INFO -->
-                                <div class="d-flex align-items-center mt-4">
-                                    <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
-                                        style="width:45px; height:45px;">RM
-                                    </div>
-
-                                    <div class="ms-3">
-                                        <h6 class="mb-0 fw-bold">Ruth Myles</h6>
-                                        <small class="text-muted">Assistant Manager</small>
+                                <!-- card2 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://www.vodacom.co.za/sites/vodacomcoza/files/2024-03/e-learning-123-stepper.png"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Virtual Instructional Design Certificate</h5>
+                                            <p class="card-text">Build interactive, instructor-led, synchronous virtual
+                                                learning experiences using proven instructional design principles. Drive
+                                                participation and real-world learning outcomes.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                          
+
+                                <!-- card3 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card" style="width: 18rem; ">
+                                        <img src="https://www.articulate.com/wp-content/uploads/2024/12/iStock-2168107040-1024x683.jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Self Paced Course</small>
+                                            <h5 class="card-title mt-2">Evaluating and Selecting E-Learning Software
+                                                Tools
+                                            </h5>
+                                            <p class="card-text">Discover the types of e-learning tools available and
+                                                the
+                                                key considerations necessary to properly evaluate and select the right
+                                                software for learners’ needs.</p>
+                                            <a href="#" class="btn">Learn more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 2 -->
+                        <div class="carousel-item py-3">
+                            <div class="row gap-5 justify-content-center">
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card" style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/5394dea8-4108-4181-b66f-92672bd75923/Adobe-Stock-271185301-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Need Assessment Certificate
+                                            </h5>
+                                            <p class="card-text">Boots your professional credibility by learning the
+                                                purpose, process and payoffs of assessing individual and organizational
+                                                performance needs.</p>
+                                            <a href="#" class="btn">Learn more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
                         </div>
                     </div>
-                    <!-- fb3 -->
-                     <div class="col-md-3 d-flex justify-content-center">
-                        <div class="card" style="width: 18rem;">
-                            <div class="card-body">
-                                  <!-- TEXT -->
-                                <p class="card-text text-muted" style="font-size:14px;">
-                                    "As a longtime "live" trainer. This [E-Learning Instructional Design Certificate] was a great introduction ,
-                                    but those in my class who are already designing e-learning also learned new techniques to make their training courses better."
-                                </p>
+                </div>
+            </article>
 
+            <!-- section2 -->
+            <article>
+                <div class="part2"></div>
+                <div class="text-center py-5">
+                    <h1 class="fw-bold mb-3">Advance Your Skills & Application</h1>
+                    <p class="mx-auto fw-medium " style="max-width: 500px;">These specialized programs in e-learning
+                        tools
+                        and techniques help
+                        you boost engagement and enhance learning outcomes in online environments.
+                    </p>
+                </div>
+
+                <!-- card part2 -->
+                <div id="carouselExample2" class="carousel slide carousel-dark">
+                    <div class="carousel-inner py-3">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample2"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <!-- slide1 -->
+                        <div class="carousel-item active py-3">
+                            <div class="row gap-5 justify-content-center">
+
+                                <!-- card1 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/87d3e37c-67d5-4c43-a1eb-baebb0dc1252/Adobe-Stock-137989033-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h3 class="card-title mt-2">Articulate Storyline: Advanced Techniques
+                                                Certificate</h3>
+                                            <p class="card-text">Build on your existing Storyline skills to create
+                                                sophisticated, personalized, and accessible e-learning.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card2 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card" style="width: 18rem;">
+                                        <img src="https://assets.td.org/transform/1af08eba-46c8-4a4f-8f17-dbbc50111141/4-tricks-to-keep-video-costs-in-check-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Designing Training Videos Certificate</h5>
+                                            <p class="card-text">Drawing on both media psychology and learning theory,
+                                                discover a step-by-step process for designing video content to support
+                                                learning.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card3 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card" style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/c1f77244-1cd4-4b88-b478-d97cf219392a/Content-creation-and-online-marketing-strategies-to-grow-their-digital-business-analyze-media-video-streaming-Man-holding-icon-ai-and-use-smartphone-Marketers-education-research"
+                                            alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">WorkShop</small>
+                                            <h5 class="card-title mt-2">AI for Instructional Design Workshop</h5>
+                                            <p class="card-text">Harness the power of generative AI to efficiently
+                                                design
+                                                and develop impactful learning experiences.</p>
+                                            <a href="#" class="btn">Learn more</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 2 -->
+                        <div class="carousel-item py-3">
+                            <div class="row gap-5 justify-content-center">
+                                <!-- card1 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem;">
+                                        <img src="https://assets.td.org/transform/69a758dc-1cd7-4d6c-a6dd-79b707487a39/Adobe-Stock-478494545-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Articulate Rise Certificate</h5>
+                                            <p class="card-text">Save time and increase the quality and impact of your
+                                                e-learning projects by learning how to use this simple authoring tool.
+                                            </p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
                                 
-
-                                <!-- USER INFO -->
-                                <div class="d-flex align-items-center mt-4">
-                                    <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
-                                        style="width:45px; height:45px;">DB
-                                    </div>
-
-                                    <div class="ms-3">
-                                        <h6 class="mb-0 fw-bold">Deirdre Byerly</h6>
-                                        <small class="text-muted">Trainer</small>
+                                <!-- card2 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/1ded5b48-75fa-4c60-85dc-f96c86fa3d13/Adobe-Stock-137171761-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Project Management Certificate</h5>
+                                            <p class="card-text">Become an effective project manager with the skills to
+                                                successfully initiate, plan, implement, and launch any talent
+                                                development
+                                                project.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>                          
+                            </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>   
-<!-- Form -->
-        <div class="form">
-            <div class="title text-center py-5">
-                <h1 class="fw-bold mb-3">Unsure Which Course to Take?</h1>
-                <p class="mx-auto fw-medium "  style="max-width: 500px;">Schedule a call with an ATD Professional Development Specialist to 
-                    explore training options and discuss your training goals.
-                </p>
-            </div>
-            <!-- form -->
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Name:</label>
-                <div class="mb-3 d-flex gap-5">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="FirstName">
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="LastName">
-                </div>  
-            </div>
+            </article>
 
-            <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Company Name:</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Company Name">
-            </div>
-            
-            <div class="mb-3 d-flex gap-5">
-                <div class="mb-3 ">
-                    <label for="exampleFormControlInput1" class="form-label">Job Title:</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Company Name">
+            <!-- section3 -->
+            <article>
+                <div class="text-center py-5">
+                    <h1 class="fw-bold mb-3">Elevate Your Strategic Impact</h1>
+                    <p class="mx-auto fw-medium " style="max-width: 500px;">Drive business impact with your e-learning
+                        programs with advanced skills
+                        in instructional design, authoring, evaluation, and performance improvement.
+                    </p>
                 </div>
 
-                <div class="mb-3 ">
-                    <label for="exampleFormControlInput1" class="form-label">Email:</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Company Name">
+                <!-- card part3 -->
+                <div id="carouselExample3" class="carousel slide carousel-dark">
+                    <div class="carousel-inner py-3">
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample3"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                        <!-- slide1 -->
+                        <div class="carousel-item active py-3">
+                            <div class="row gap-5 justify-content-center">
+
+                                <!-- card1 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/6d91bebe-a364-4a5b-8a36-a23260ec4954/1564504827-EDU-Masters-Programs-ISD-b-372x185"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Master Program</small>
+                                            <h5 class="card-title mt-2">Project Management Certificate</h5>
+                                            <p class="card-text">Become an effective project manager with the skills to
+                                                successfully initiate, plan, implement, and launch any talent
+                                                development
+                                                project.</p>
+                                            <a href="#" class="btn btn-success">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card2 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src=" https://assets.td.org/transform/09078a9c-c26a-4593-9393-0632292eb203/Adobe-Stock-103251926-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Articulate Storyline: Advanced Techniques
+                                                Certificate</h5>
+                                            <p class="card-text">Build on your existing Storyline skills to create
+                                                sophisticated, personalized, and accessible e-learning.</p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <!-- card3 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/5e689737-b23b-43a0-8a38-e2fa9f27794d/Adobe-Stock-76833400-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Human Performance Improvement Certificate</h5>
+                                            <p class="card-text">Learn how to use the Human Performance Improvement
+                                                (HPI)
+                                                process, to help your stakeholders create bottom-line results. </p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- slide 2 -->
+                        <div class="carousel-item py-3">
+                            <div class="row gap-3 justify-content-center">
+                                <!-- card1 -->
+                                <div class="col-md-3 d-flex justify-content-center">
+                                    <div class="card " style="width: 18rem; ">
+                                        <img src="https://assets.td.org/transform/cd15117f-68b0-45e5-ba11-048302eccfa3/Adobe-Stock-115039381-jpg"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <small class="text-uppercase fw-bold">Certificate Program</small>
+                                            <h5 class="card-title mt-2">Evaluating Learning Impact Certificate</h5>
+                                            <p class="card-text">Shift from activity-based to results-based learning
+                                                programs by applying a comprehensive and scalable evaluation process.
+                                            </p>
+                                            <a href="#" class="btn">Learn More</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="mb-3 d-flex gap-5">
+            </article>
 
-                <div class="mb-3 ">
-                    <label for="exampleFormControlInput1" class="form-label">Phone</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your PhoneNumber">
+            <!-- section 4 -->
+            <article>
+                <!--Q&A  -->
+                <div class="qa">
+                    <div class="container">
+                        <h1 class="text-center py-5">FAQ: Courses for E-Learning Professionals</h1>
+
+                        <div class="accordion" id="faqAccordion">
+
+                            <!-- Item 1 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq1">
+                                        What is an e-learning training professional?
+                                    </button>
+                                </h2>
+                                <div id="faq1" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        An e-learning professional serves in a range of roles that support the creation
+                                        of
+                                        structured courses or learning
+                                        experiences delivered electronically, including online or computer-based
+                                        learning,
+                                        virtual classrooms, performance support materials, and digital collaboration and
+                                        knowledge sharing.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 2 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq2">
+                                        What do e-learning training professionals do?
+                                    </button>
+                                </h2>
+                                <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        E-learning professionals support the creation of e-learning training courses and
+                                        may
+                                        serve as instructional designers who specialize in creating e-learning
+                                        curriculum,
+                                        virtual trainers or facilitators who deliver online training on platforms like
+                                        Zoom
+                                        or Microsoft Teams, or learning
+                                        technologists who develop, assemble, or author e-learning courses using tools
+                                        like
+                                        Articulate Storyline or Articulate Rise.
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <!-- Item 3 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq3">
+                                        What core skills do e-learning training professionals need?
+                                    </button>
+                                </h2>
+                                <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        E-learning professionals often combine learning technology and instructional
+                                        design
+                                        skills to create engaging, effective online e-learning courses. Key skill areas
+                                        include:
+                                        Instructional design for e-learning training : Applying learning theories and
+                                        models, needs assessment, writing learning objectives, and structuring and
+                                        sequencing engaging learner-centric e-learning courses and modules.Instructional
+                                        design for e-learning training: Applying learning theories and models, needs
+                                        assessment, writing learning objectives, and structuring and sequencing engaging
+                                        learner-centric e-learning courses and modules.
+                                        E-learning authoring and tools : Using authoring tools (for example, Articulate
+                                        Rise
+                                        and other e-learning tools) to build interactive, media-rich e-learning
+                                        courses.E-learning authoring and tools: Using authoring tools (for example,
+                                        Articulate Rise and other e-learning tools) to build interactive, media-rich
+                                        e-learning courses.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Item 4 -->
+                            <div class="accordion-item">
+                                <h2 class="accordion-header">
+                                    <button class="accordion-button collapsed fw-bold" type="button"
+                                        data-bs-toggle="collapse" data-bs-target="#faq4">
+                                        What other skills do e-learning training professionals need to be successful?
+                                    </button>
+                                </h2>
+                                <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqAccordion">
+                                    <div class="accordion-body">
+                                        E-learning professionals often need project management and collaboration skills
+                                        to
+                                        successfully design and build online learning solutions. These skills include
+                                        planning and managing e-learning training projects,
+                                        coordinating with stakeholders, and using project management tools and processes
+                                        to
+                                        keep work on track.
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
                 </div>
 
-                <div class="mb-3">
-                    <label for="exampleFormControlInput1" class="form-label">Phone Extension</label>
-                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Enter Your PhoneNumber">
+                <!-- feedback -->
+                <div class="fd">
+                    <div>
+                        <h1 class="text-center py-5">Testimonials</h1>
+                    </div>
+                    <div class="card-fb">
+                        <div class="row g-3 justify-content-center">
+                            <!-- fb1 -->
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <!-- TEXT -->
+                                        <p class="card-text text-muted" style="font-size:14px;">
+                                            "This [Virtual Instructional Design Certificate] program was spot on for
+                                            what I
+                                            was looking for! It offered an excellent overview of the instructional
+                                            design
+                                            process from needs assessment.
+                                            I gained new insights into selecting the best learning strategies."
+                                        </p>
+
+                                        <!-- USER INFO -->
+                                        <div class="d-flex align-items-center mt-4">
+                                            <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
+                                                style="width:45px; height:45px;">BA
+                                            </div>
+
+                                            <div class="ms-3">
+                                                <h6 class="mb-0 fw-bold">Blake Austensen</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fb2 -->
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <!-- TEXT -->
+                                        <p class="card-text text-muted" style="font-size:14px;">
+                                            I feel that this program [AI for Instructional Design Workshop] has taken my
+                                            use
+                                            of AI to the next level.
+                                            I am now better prepared to integrate the use of AI into the instructional
+                                            design process as well as other aspects of my job.
+                                        </p>
+
+                                        <!-- USER INFO -->
+                                        <div class="d-flex align-items-center mt-4">
+                                            <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
+                                                style="width:45px; height:45px;">RM
+                                            </div>
+
+                                            <div class="ms-3">
+                                                <h6 class="mb-0 fw-bold">Ruth Myles</h6>
+                                                <small class="text-muted">Assistant Manager</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- fb3 -->
+                            <div class="col-md-3 d-flex justify-content-center">
+                                <div class="card" style="width: 18rem;">
+                                    <div class="card-body">
+                                        <!-- TEXT -->
+                                        <p class="card-text text-muted" style="font-size:14px;">
+                                            "As a longtime "live" trainer. This [E-Learning Instructional Design
+                                            Certificate] was a great introduction ,
+                                            but those in my class who are already designing e-learning also learned new
+                                            techniques to make their training courses better."
+                                        </p>
+
+
+
+                                        <!-- USER INFO -->
+                                        <div class="d-flex align-items-center mt-4">
+                                            <div class="rounded-circle bg-primary text-white d-flex justify-content-center align-items-center"
+                                                style="width:45px; height:45px;">DB
+                                            </div>
+
+                                            <div class="ms-3">
+                                                <h6 class="mb-0 fw-bold">Deirdre Byerly</h6>
+                                                <small class="text-muted">Trainer</small>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
-            </div>
+                <!-- Form -->
+                <div class="form pb-5">
+                    <div class="title text-center py-5">
+                        <h1 class="fw-bold mb-3">Unsure Which Course to Take?</h1>
+                        <p class="mx-auto fw-medium " style="max-width: 500px;">Schedule a call with an ATD Professional
+                            Development Specialist to
+                            explore training options and discuss your training goals.
+                        </p>
+                    </div>
+                    <!-- form -->
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Name:</label>
+                        <div class="mb-3 d-flex gap-5">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="FirstName">
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="LastName">
+                        </div>
+                    </div>
 
-            <div class="mb-3">
-                <label class="form-label">Country:</label>
-                <select class="form-select">
-                    <option selected>United States of America</option>
-                    <option>Cambodia</option>
-                    <option>Vietnam</option>
-                    <option>Singapore</option>
-                    <option>Malaysia</option>
-                </select>
-            </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Company Name:</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1"
+                            placeholder="Enter Company Name">
+                    </div>
 
-            <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">How can we help?</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-            </div>
+                    <div class="mb-3 d-flex gap-5">
+                        <div class="mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Job Title:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Company Name">
+                        </div>
 
+                        <div class="mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Email:</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Company Name">
+                        </div>
+                    </div>
+                    <div class="mb-3 d-flex gap-5">
+
+                        <div class="mb-3 ">
+                            <label for="exampleFormControlInput1" class="form-label">Phone</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Your PhoneNumber">
+                        </div>
+
+                        <div class="mb-3">
+                            <label for="exampleFormControlInput1" class="form-label">Phone Extension</label>
+                            <input type="email" class="form-control" id="exampleFormControlInput1"
+                                placeholder="Enter Your PhoneNumber">
+                        </div>
+                    </div>
+
+                    <div class="mb-3">
+                        <label class="form-label">Country:</label>
+                        <select class="form-select">
+                            <option selected>United States of America</option>
+                            <option>Cambodia</option>
+                            <option>Vietnam</option>
+                            <option>Singapore</option>
+                            <option>Malaysia</option>
+                        </select>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">How can we help?</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                    </div>
+
+                </div>
+            </article>
         </div>
-<!-- Footer -->
-    <footer class="bg-light pt-5 pb-3">
-        <div class="container-fluid py-5">
+    </section>
 
-            <div class="row">
+    <!-- Footer -->
+    <section class="container-fluid p-0 px-md-5">
+        <footer class="pt-5 pb-3">
+            <div class="container-fluid py-5">
 
-            <!-- LOGO -->
-            <div class="col-md-5 mb-4">
-                <div class="d-flex align-items-center mx-5 mb-3">
-                <img src="https://assets.td.org/m/737d8a5ff44c5e5/webimage-ATD-Footer-Logo.png" alt="logo" width="320">
+                <div class="row">
+
+                    <!-- LOGO -->
+                    <div class="col-md-5 mb-4">
+                        <div class="d-flex align-items-center mx-5 mb-3">
+                            <img src="https://assets.td.org/m/737d8a5ff44c5e5/webimage-ATD-Footer-Logo.png" alt="logo"
+                                width="320">
+                        </div>
+                        <p class="text-black mx-5">
+                            Empower Professionals to Develop Talent in the Workplace
+                        </p>
+                    </div>
+
+                    <!-- ABOUT -->
+                    <div class="col-md-3 mb-4 ">
+                        <h5 class="fw-bold mb-3">About</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">About Us</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">FAQs</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Enterprise Solutions</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Chapters</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">ATD Global</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">ATD Press Room</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Store</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">Advertise With Us</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- CAREERS -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="fw-bold mb-3">Careers</h5>
+                        <ul class="list-unstyled">
+                            <li><a href="#" class="text-dark text-decoration-none">Careers at ATD</a></li>
+                            <li><a href="#" class="text-dark text-decoration-none">ATD Job Bank</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- CONTACT -->
+                    <div class="col-md-2 mb-4">
+                        <h5 class="fw-bold mb-3">Contact Us</h5>
+                        <ul class="list-unstyled">
+                            <li class="text-dark">+1.800.628.2783</li>
+                            <li class="text-dark">+1.703.683.8100</li>
+                            <li class="text-dark">customercare@td.org</li>
+                        </ul>
+                    </div>
+
                 </div>
-                <p class="text-black mx-5">
-                Empower Professionals to Develop Talent in the Workplace
-                </p>
-            </div>
-
-            <!-- ABOUT -->
-            <div class="col-md-3 mb-4 ">
-                <h5 class="fw-bold mb-3">About</h5>
-                <ul class="list-unstyled">
-                <li><a href="#" class="text-dark text-decoration-none">About Us</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">FAQs</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">Enterprise Solutions</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">Chapters</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">ATD Global</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">ATD Press Room</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">Store</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">Advertise With Us</a></li>
-                </ul>
-            </div>
-
-            <!-- CAREERS -->
-            <div class="col-md-2 mb-4">
-                <h5 class="fw-bold mb-3">Careers</h5>
-                <ul class="list-unstyled">
-                <li><a href="#" class="text-dark text-decoration-none">Careers at ATD</a></li>
-                <li><a href="#" class="text-dark text-decoration-none">ATD Job Bank</a></li>
-                </ul>
-            </div>
-
-            <!-- CONTACT -->
-            <div class="col-md-2 mb-4">
-                <h5 class="fw-bold mb-3">Contact Us</h5>
-                <ul class="list-unstyled">
-                <li class="text-dark">+1.800.628.2783</li>
-                <li class="text-dark">+1.703.683.8100</li>
-                <li class="text-dark">customercare@td.org</li>
-                </ul>
-            </div>
-
             </div>
 
             <!-- SOCIAL ICONS -->
-            <div class="d-flex justify-content-end gap-3 mt-4">
-            <i class="fa-brands fa-facebook fs-5"></i> 
-            <i class="fa-brands fa-x-twitter fs-5"></i>
-            <i class="fa-brands fa-linkedin fs-5"></i>
-            <i class="fa-brands fa-instagram fs-5"></i>
-            <i class="fa-brands fa-youtube fs-5"></i>
-        
-        </div>
+            <div class="d-flex justify-content-end gap-3 mt-4 px-5">
+                <div class="our-tamplat">
+                    <i class="fa-brands d-flex justify-content-center fa-facebook fs-5"></i>
+                </div>
+                <div class="our-tamplat">
+                    <i class="fa-brands d-flex justify-content-center fa-x-twitter fs-5"></i>
+                </div>
+                <div class="our-tamplat">
+                    <i class="fa-brands d-flex justify-content-center fa-linkedin fs-5"></i>
+                </div>
+                <div class="our-tamplat">
+                    <i class="fa-brands d-flex justify-content-center fa-instagram fs-5"></i>
+                </div>
+                <div class="our-tamplat">
+                    <i class="fa-brands d-flex justify-content-center fa-youtube fs-5"></i>
+                </div>
 
+            </div>
             <hr>
-
-        </div>
-    </footer>
-
-
-    </div>
+        </footer>
     </section>
-
 
 </body>
 
