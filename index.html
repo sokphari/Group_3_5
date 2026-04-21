@@ -1,73 +1,126 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>MovieZone - Home</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>MovieZone - Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body> 
-<nav class="navbar navbar-expa0.nd-lg navbar-dark bg-dark">
-  <div class="container">
-    <a class="navbar-brand" href="index.html">🎬 MovieZone</a>
-    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="nav">
-      <ul class="navbar-nav ms-auto">
-        <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
-        <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
-        <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
-        <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
-        <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+<style>
+    *{
+        padding: 0;
+        margin: 0;
+        box-sizing: border-box;
+    }
+</style>
 
-<header class="bg-dark text-white text-center p-5">
-  <h1>Welcome to Movie Cinema</h1>
-  <p>Watch your favorite movies anytime</p>
-  <p>Let's chill together with movies</p>
-</header>
-<div class="container my-5">
-  <div class="row g-4">
-    <div class="col-md-4">
-      <div class="card">
-        <img src="https://i.pinimg.com/736x/3c/b4/28/3cb428f7b5e7246ee9c2727862e423e4.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5>Action Movie</h5>
-          <div class="stars">⭐⭐⭐⭐☆</div>
-          <p class="price">$5,5</p>
-          <button class="bg-primary">Buy Now</button>
+<body>
+    <nav class="navbar navbar-expa0.nd-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">🎬 MovieZone</a>
+            <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="nav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="movies.html">Movies</a></li>
+                    <li class="nav-item"><a class="nav-link" href="promotion.html">promotion</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
+                </ul>
+            </div>
         </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="https://i.pinimg.com/736x/9e/50/c9/9e50c9b96f17a8117b18c95f26fd2fd6.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5>Comedy Movie</h5>
-          <div class="stars">⭐⭐⭐⭐☆</div>
-          <p class="price">$15,5</p>
-          <button class="bg-primary">Buy Now</button>
-        </div>
-      </div>
-    </div>
-    <div class="col-md-4">
-      <div class="card">
-        <img src="https://i.pinimg.com/736x/68/27/18/6827185ce565a6ad239be43722b81da3.jpg" class="card-img-top">
-        <div class="card-body">
-          <h5>Drama Movie</h5>
-          <div class="stars">⭐⭐⭐⭐☆</div>
-          <p class="price">$10,5</p>
-          <button class="bg-primary">Buy Now</button>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
+    </nav>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <header class="bg-dark text-white text-center p-5">
+        <h1>Welcome to Movie Cinema</h1>
+        <p>Watch your favorite movies anytime</p>
+        <p>Let's chill together with movies</p>
+    </header>
+    <div class="container my-5 g-2">
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/3c/b4/28/3cb428f7b5e7246ee9c2727862e423e4.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Action Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$5,5</ p>
+                            <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/45/aa/b3/45aab33183fe5c7c4a674793fedefc3b.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Comedy Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$15,5</p>
+                        <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/96/25/b3/9625b3c4d1d4b8e9444b98b23ae80a48.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Drama Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$10,5</p>
+                        <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row g-4">
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/44/b2/5e/44b25e67957a8d0b00a6df9fb331b4c7.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Action Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$5,5</p>
+                        <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/fb/0b/c8/fb0bc8bbf4fe83856487d3cc240f2d97.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Comedy Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$15,5</p>
+                        <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card">
+                    <img src="https://i.pinimg.com/736x/ca/9e/2b/ca9e2b5ba94957377a500cb4b87459ec.jpg"
+                        class="card-img-top">
+                    <div class="card-body">
+                        <h5>Drama Movie</h5>
+                        <div class="stars">⭐️⭐️⭐️⭐️☆</div>
+                        <p class="price">$10,5</p>
+                        <button class="bg-primary">Buy Now</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+
 </html>
