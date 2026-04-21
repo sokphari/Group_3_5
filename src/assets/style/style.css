@@ -171,12 +171,12 @@ section {
             border-radius: 20px;
             overflow: hidden;
             transition: 0.3s;
-            box-shadow: 1px 1px 7px 2px rgb(197, 194, 194);
+            box-shadow: 1px 1px 7px 2px rgb(239, 236, 236);
         }
 
         & .card:hover {
             transform: translateY(-8px);
-            box-shadow: 1px 1px 10px 5px rgb(125, 122, 122);
+            box-shadow: 1px 1px 10px 5px rgb(228, 224, 224);
         }
 
         & .btn {
@@ -282,3 +282,4 @@ footer {
         color: #5e5f5f;
     }
 }
+
