@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+
+<body>
+    <script>
+        //condition statement , if , else if , else
+        //if condition
+        let x = 10;
+
+        if (5 > x) {
+
+            console.log("result x = 10");
+
+        } else if (x != 10) {
+
+            console.log(" x != 10 is true")
+
+        } else if (x < 5 && x != 5) {
+
+            console.log("x<5 && x!=5")
+
+        } else {
+
+            console.log("All condition Wrong 🥹")
+
+        }
+        //ternary operator
+
+        let age = 18;
+        let person = (age > 18) ? "You can help Relationship 💖" : "You can not have Relationship 💔"
+        console.log("result person right now = " + person)
+
+
+        //use with condition topic register
+        let username = "Saravuth"
+        let gender = "male"
+        let email = "saravuth1887@gmail.it"
+        let password = "123456"
+
+        if (username === 'Saravuth') {
+            if (gender === 'male') {
+                if ('saravuth1887@gmail.it' === email) {
+                    if (password === '123456') {
+                        console.log('Welcome to dashboard Admin ')
+                    } else {
+                        console.log('Password invalide')
+                    }
+                } else {
+                    console.log('email invalide')
+                }
+            } else {
+                console.log('gender invalide')
+            }
+        } else {
+            console.log('username invalide')
+        }
+
+        let inputName = parseInt(prompt('Enter Num1 = '))
+        document.writeln('<span class="badge bg-danger">' + inputName + '</span>')
+        console.log(typeof inputName)
+
+
+
+
+
+
+        // let a = 5;
+        // if(a === '5'){
+        //     console.log('true');
+        // }else{
+        //     console.log('false')
+        // }
+
+
+
+
+    </script>
+</body>
+
+</html>

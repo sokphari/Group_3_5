@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+        let khmer = Number(prompt("Value Subject : "))
+        let english = Number(prompt("Value english : "))
+        let histroy = Number(prompt("Value History : "))
+        let math = Number(prompt("Value Math : "))
+        let kimi = Number(prompt("Value Kimi : "))
+        
+        let totalSubject = khmer + english + histroy + math + kimi
+
+        let averageSubject = totalSubject / 5
+        let Grade = ""
+
+        //condition
+        if(averageSubject > 90 && averageSubject <= 100){
+            Grade = 'A'
+        }else if(averageSubject > 80 && averageSubject <= 90){
+            Grade = 'B'
+        }
+
+
+    </script>
+</body>
+</html>
