@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Users</title>
+</head>
+<body>
+    <!-- make form -->
+    <form action="#" id="form">
+        <input type="text" id="fullname" value="Hello" placeholder="Enter FullName"> <br>
+        <input type="text" id="gender" placeholder="Enter Gender"> <br>
+        <input type="email" id="email" placeholder="example@ectec.com"> <br>
+        <input type="password" id="password" placeholder="8888 8888"> <br>
+        <button type="submit">រក្សាទុក ​🔄️</button>
+    </form>
+
+    <div id="demo">
+          
+    </div>
+
+</body>
+    <script>
+        // let fullname = document.getElementById('fullname').value;
+        // console.log(fullname)
+
+        let form = document.getElementById('form');
+        form.addEventListener('submit',function(e){
+            
+            e.preventDefault()
+
+            let fullname = document.getElementById('fullname').value;
+                // console.log(fullname)
+            let gender = document.getElementById('gender').value;
+                // console.log(gender)
+            let email = document.getElementById('email').value;
+                // console.log(email)
+            let password = document.getElementById('password').value;
+                // console.log(password)
+
+            let demo = document.getElementById('demo')
+            demo.innerHTML = `
+            <h2>Information Users</h2>
+           <strong>Name : <span style="color: rgb(56, 21, 90); font-weight: bold; font-size: 20px;"> ${fullname}        </span>  </strong>  <br>
+           <strong>Gender : <span style="color: rgb(226, 88, 13); font-weight: bold; font-size: 20px;">  ${gender}       </span>  </strong> <br> 
+           <strong>Email : <span style="color: rgb(15, 240, 38); font-weight: bold; font-size: 20px;">   ${email}       </span>  </strong>  <br>
+           <strong>Password : <span style="color: rgb(56, 21, 90); font-weight: bold; font-size: 20px;"> ${password}       </span>  </strong>  <br>
+            `
+        })
+    </script>
+</html>

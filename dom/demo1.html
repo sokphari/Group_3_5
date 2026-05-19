@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="content">Welcome to my website 📩</p>
+</body>
+    <script>
+        let content = document.getElementById('content')
+
+        console.log(content)
+
+        content.innerHTML = "<span>Hello world</span>"
+        content.style.backgroundColor = "red";
+        content.style.width = "500px"
+        content.style.height = "500px"
+        content.style.textAlign = "center"
+
+    </script>
+</html>

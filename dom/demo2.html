@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- btn -->
+    <!-- type : button submit -->
+    <button type="button" id="btn">Click Me 👆</button>
+
+    <div id="demo">
+
+    </div>
+
+</body>
+    <script>
+        // catch demo
+        let demo  = document.getElementById('demo')
+        // console.log(demo)
+        // catch btn
+        let btn = document.getElementById('btn')
+        btn.addEventListener('click',click)
+        function click(){
+            alert("I Love you crush.......💗")
+            demo.innerHTML = '<img src="https://i.pinimg.com/736x/b8/42/58/b842583b2176aace3eab9547d28d1239.jpg" alt="" >'
+        }
+        btn.addEventListener('click',function(){
+            alert("I Love you crush.......💗")
+            demo.innerHTML = '<img src="https://i.pinimg.com/736x/b8/42/58/b842583b2176aace3eab9547d28d1239.jpg" alt="" >'
+        })
+
+        btn.addEventListener('click', () => {
+            alert("I Love you crush.......💗")
+            demo.innerHTML = '<img src="https://i.pinimg.com/736x/b8/42/58/b842583b2176aace3eab9547d28d1239.jpg" alt="" >'
+        })
+    </script>
+</html>

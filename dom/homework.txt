@@ -1,0 +1,4 @@
+requirement: 
+fullname , gender , email , password
+and then display on
+ website brower with JavaScript

@@ -1,0 +1,11 @@
+exercise for my student with oop : 5 point
+1.required make class Employee
+2.required data member have  {id,name,gender,salary,position} private
+3.required function and method have infoEmpl(id,name,gender,salary,position)
+ bonus(){if salary >= 1000 ? 20% : 10% } & totalSalary(){salary + bonus}
+4.required create and make 3 : record {
+    id  , name , gender , salary , position    , bonus , totalSalary
+    1   , dalin, female , 5000   , frotend-dev , 20%   , 00000000\
+    2   , lina , female , 15000  , back-dev    , 10%   , 00000000\
+    3   , david , male  , 7000   , devOps      , 20%   , 00000000\
+}
