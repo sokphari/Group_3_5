@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>For My Love</title>
+
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Arial, sans-serif;
+    }
+
+    body {
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background:
+        radial-gradient(circle at top left, #ffe6f0, transparent 35%),
+        radial-gradient(circle at bottom right, #ffd6e8, transparent 35%),
+        linear-gradient(135deg, #ff8fab, #ffc2d1, #ffe5ec);
+      overflow: hidden;
+      padding: 20px;
+    }
+
+    .floating-heart {
+      position: absolute;
+      color: rgba(255, 255, 255, 0.8);
+      font-size: 24px;
+      animation: floatHeart 7s linear infinite;
+      bottom: -40px;
+    }
+
+    .floating-heart:nth-child(1) {
+      left: 10%;
+      animation-delay: 0s;
+      font-size: 22px;
+    }
+
+    .floating-heart:nth-child(2) {
+      left: 25%;
+      animation-delay: 1.5s;
+      font-size: 30px;
+    }
+
+    .floating-heart:nth-child(3) {
+      left: 50%;
+      animation-delay: 3s;
+      font-size: 24px;
+    }
+
+    .floating-heart:nth-child(4) {
+      left: 70%;
+      animation-delay: 2s;
+      font-size: 34px;
+    }
+
+    .floating-heart:nth-child(5) {
+      left: 85%;
+      animation-delay: 4s;
+      font-size: 26px;
+    }
+
+    @keyframes floatHeart {
+      0% {
+        transform: translateY(0) scale(1);
+        opacity: 0;
+      }
+      15% {
+        opacity: 1;
+      }
+      100% {
+        transform: translateY(-110vh) scale(1.4);
+        opacity: 0;
+      }
+    }
+
+    .love-card {
+      width: 100%;
+      max-width: 420px;
+      min-height: 560px;
+      position: relative;
+      text-align: center;
+      border-radius: 34px;
+      padding: 28px;
+      background: rgba(255, 255, 255, 0.72);
+      backdrop-filter: blur(16px);
+      box-shadow:
+        0 30px 80px rgba(255, 77, 109, 0.35),
+        inset 0 0 0 2px rgba(255, 255, 255, 0.7);
+      overflow: hidden;
+      z-index: 2;
+    }
+
+    .love-card::before {
+      content: "";
+      position: absolute;
+      width: 180px;
+      height: 180px;
+      background: rgba(255, 77, 109, 0.14);
+      border-radius: 50%;
+      top: -70px;
+      right: -70px;
+    }
+
+    .love-card::after {
+      content: "";
+      position: absolute;
+      width: 150px;
+      height: 150px;
+      background: rgba(255, 143, 171, 0.18);
+      border-radius: 50%;
+      bottom: -60px;
+      left: -50px;
+    }
+
+    .content {
+      position: relative;
+      z-index: 3;
+    }
+
+    .top-label {
+      display: inline-block;
+      padding: 8px 18px;
+      border-radius: 999px;
+      background: #fff0f5;
+      color: #ff4d6d;
+      font-weight: 700;
+      font-size: 14px;
+      margin-bottom: 18px;
+      box-shadow: 0 8px 20px rgba(255, 77, 109, 0.15);
+    }
+
+    .main-emoji {
+      width: 120px;
+      height: 120px;
+      margin: 4px auto 16px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border-radius: 50%;
+      background: linear-gradient(145deg, #fff, #ffe5ec);
+      box-shadow: 0 16px 35px rgba(255, 77, 109, 0.25);
+      animation: softBounce 1.8s ease-in-out infinite;
+    }
+
+    .main-emoji img {
+      width: 78px;
+      height: 78px;
+    }
+
+    @keyframes softBounce {
+      0%, 100% {
+        transform: translateY(0);
+      }
+      50% {
+        transform: translateY(-10px);
+      }
+    }
+
+    h1 {
+      color: #d6336c;
+      font-size: 34px;
+      line-height: 1.2;
+      margin-bottom: 12px;
+    }
+
+    .subtitle {
+      color: #7a3b4f;
+      font-size: 17px;
+      line-height: 1.6;
+      margin-bottom: 24px;
+    }
+
+    .question-box {
+      background: rgba(255, 240, 245, 0.95);
+      border: 2px dashed rgba(255, 77, 109, 0.35);
+      border-radius: 24px;
+      padding: 18px;
+      margin-bottom: 24px;
+    }
+
+    .question-box p {
+      color: #b5174c;
+      font-size: 22px;
+      font-weight: 800;
+    }
+
+    .buttons-area {
+      width: 100%;
+      height: 150px;
+      position: relative;
+    }
+
+    button {
+      position: absolute;
+      border: none;
+      outline: none;
+      padding: 15px 34px;
+      border-radius: 999px;
+      font-size: 18px;
+      font-weight: 800;
+      cursor: pointer;
+      transition: 0.25s ease;
+      box-shadow: 0 12px 25px rgba(0, 0, 0, 0.16);
+    }
+
+    #yesBtn {
+      left: 45px;
+      top: 45px;
+      background: linear-gradient(135deg, #ff4d6d, #ff758f);
+      color: white;
+    }
+
+    #yesBtn:hover {
+      transform: scale(1.08);
+      box-shadow: 0 18px 30px rgba(255, 77, 109, 0.35);
+    }
+
+    #noBtn {
+      left: 225px;
+      top: 45px;
+      background: white;
+      color: #ff4d6d;
+      border: 2px solid #ff8fab;
+    }
+
+    .result {
+      display: none;
+      animation: showLove 0.55s ease;
+      padding-top: 10px;
+    }
+
+    @keyframes showLove {
+      from {
+        opacity: 0;
+        transform: scale(0.7);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+    .result h2 {
+      color: #d6336c;
+      font-size: 32px;
+      margin-bottom: 12px;
+    }
+
+    .result p {
+      color: #7a3b4f;
+      font-size: 18px;
+      line-height: 1.6;
+      margin-bottom: 18px;
+    }
+
+    .kiss-final {
+      width: 125px;
+      height: 125px;
+      margin-bottom: 12px;
+      animation: kissPop 1s ease-in-out infinite alternate;
+    }
+
+    @keyframes kissPop {
+      from {
+        transform: scale(1) rotate(-4deg);
+      }
+      to {
+        transform: scale(1.12) rotate(4deg);
+      }
+    }
+
+    .love-note {
+      background: white;
+      border-radius: 22px;
+      padding: 18px;
+      color: #d6336c;
+      font-weight: 700;
+      box-shadow: 0 12px 28px rgba(255, 77, 109, 0.18);
+    }
+
+    @media (max-width: 430px) {
+      .love-card {
+        min-height: 540px;
+        padding: 22px;
+      }
+
+      h1 {
+        font-size: 29px;
+      }
+
+      .subtitle {
+        font-size: 16px;
+      }
+
+      #yesBtn {
+        left: 25px;
+      }
+
+      #noBtn {
+        left: 190px;
+      }
+
+      button {
+        padding: 14px 28px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <div class="floating-heart">💖</div>
+  <div class="floating-heart">💕</div>
+  <div class="floating-heart">💗</div>
+  <div class="floating-heart">💞</div>
+  <div class="floating-heart">❤️</div>
+
+  <div class="love-card">
+    <div class="content">
+      <div class="top-label">A little question for you 💌</div>
+
+      <div class="main-emoji">
+        <img
+          src="https://cdnjs.cloudflare.com/ajax/libs/twemoji/14.0.2/svg/1f970.svg"
+          alt="Cute Love Emoji"
+        />
+      </div>
+
+      <h1>Hey My Love</h1>
+
+      <p class="subtitle">
+        I made this small sweet game only for you.  
+        Please answer honestly 😍
+      </p>
+
+      <div id="gameBox">
+        <div class="question-box">
+          <p>Do you love me? 💕</p>
+        </div>
+
+        <div class="buttons-area" id="buttonArea">
+          <button id="yesBtn">Yes 💖</button>
+          <button id="noBtn">No 😅</button>
+        </div>
+      </div>
+
+      <div class="result" id="resultBox">
+        <img
+          class="kiss-final"
+          src="https://i.pinimg.com/originals/2c/ef/2b/2cef2bb1185493a6d2f723b3d04bd299.gif"
+          alt="Kiss Emoji"
+        />
+
+        <h2>I love you more 😘</h2>
+
+        <p>
+          You are my favorite person, my happiness,  
+          and my sweetest reason to smile every day.
+        </p>
+
+        <div class="love-note">
+          Forever you and me 💑💗
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    const noBtn = document.getElementById("noBtn");
+    const yesBtn = document.getElementById("yesBtn");
+    const buttonArea = document.getElementById("buttonArea");
+    const resultBox = document.getElementById("resultBox");
+    const gameBox = document.getElementById("gameBox");
+
+    function moveNoButton() {
+      const areaWidth = buttonArea.offsetWidth;
+      const areaHeight = buttonArea.offsetHeight;
+
+      const btnWidth = noBtn.offsetWidth;
+      const btnHeight = noBtn.offsetHeight;
+
+      const maxX = areaWidth - btnWidth;
+      const maxY = areaHeight - btnHeight;
+
+      const randomX = Math.floor(Math.random() * maxX);
+      const randomY = Math.floor(Math.random() * maxY);
+
+      noBtn.style.left = randomX + "px";
+      noBtn.style.top = randomY + "px";
+    }
+
+    noBtn.addEventListener("mouseenter", moveNoButton);
+
+    noBtn.addEventListener("touchstart", function (event) {
+      event.preventDefault();
+      moveNoButton();
+    });
+
+    noBtn.addEventListener("click", function (event) {
+      event.preventDefault();
+      moveNoButton();
+    });
+
+    yesBtn.addEventListener("click", function () {
+      gameBox.style.display = "none";
+      resultBox.style.display = "block";
+    });
+  </script>
+</body>
+</html>
